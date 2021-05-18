@@ -58,7 +58,7 @@ public class LinearTime {
         }
 
         // Runtime Complexity = O(n) + O(m) => O(n+m) => O(n)
-        // Yes we have two inputs but the complexity increases linearly 
+        // Yes we have two inputs but the complexity increases linearly
         // So the complexity is order of N
 
     }
