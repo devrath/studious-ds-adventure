@@ -14,7 +14,7 @@ public class ConstantTime {
     public void program2(int[] numbers){
         System.out.println(numbers[0]); // O(1)
         System.out.println(numbers[1]); // O(1)
-        // RESULT: O(1) + O(1) => O(2) => O(1)
+        // Runtime Complexity: O(1) + O(1) => O(2) => O(1)
         // We only consider the constant time
     }
 
