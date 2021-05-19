@@ -75,5 +75,5 @@ public class CustomArray {
         }
         System.out.println("Item is found at position: -1");
     }
-
+    
 }

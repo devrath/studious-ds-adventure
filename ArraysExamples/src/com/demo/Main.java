@@ -9,8 +9,7 @@ public class Main {
         obj.insert(30);
         obj.insert(40);
         obj.insert(50);
-        // obj.removeAt(3);
-        obj.indexOf(90);
+        obj.reverseTheArray();
         obj.display();
     }
 }
