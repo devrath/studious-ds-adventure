@@ -20,6 +20,7 @@ public class CustomArray {
             for(int i=0 ; i<count ; i++){
                 newItems[i] = items[i];
             }
+            newItems[count++] = item;
             // Set items to this new array | - > Without this step we might get array index out of bound
             items = newItems;
         }else{
@@ -28,6 +29,26 @@ public class CustomArray {
         }
     }
 
+    public void removeAt(int index) {
+        // Validate the INDEX.
+        // If index input = -1 ..... This does not make any sense to remove the element at -1.
+        // If index value is equal to size of array or more than it ... we can't remove the element here since there are no elements.
+        // --- // Shift the element to the left, This will remove the element.
+        if(index<0){
+            // If index input = -1 ..... This does not make any sense to remove the element at -1.
+            System.out.println("Enter a valid index");
+        }else if (index>=count){
+            // If index value is equal to size of array or more than it ... we can't remove the element here since there are no elements.
+            System.out.println("Enter a valid index");
+        }else{
+            // Loop from the index that you want to remove
+            for(int i=index ; i<count ; i++){
+                // Shift the elements
+                items[i] = items[i+1];
+            }
+        }
+        count--;
+    }
 
     private int getArrayLength() {
         return items.length;
