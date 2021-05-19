@@ -22,9 +22,10 @@ public class CustomArray {
             }
             // Set items to this new array | - > Without this step we might get array index out of bound
             items = newItems;
+        }else{
+            // Add the item to the end of the array
+            items[count++] = item;
         }
-       // Add the item to the end of the array
-        items[count++] = item;
     }
 
 
