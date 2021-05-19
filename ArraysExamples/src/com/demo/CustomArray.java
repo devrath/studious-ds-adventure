@@ -1,7 +1,5 @@
 package com.demo;
 
-import java.util.Arrays;
-
 public class CustomArray {
 
     private int[] items;
@@ -11,7 +9,8 @@ public class CustomArray {
         items = new int[size];
     }
 
-    public void insert(int item){
+    // OPERATION: Insertion
+    public void insert(int item) {
        // If the array is full, resize it
         if(items.length==count){
             // Create a new array (Size is twice of existing array)
@@ -29,6 +28,7 @@ public class CustomArray {
         }
     }
 
+    // OPERATION: Deletion
     public void removeAt(int index) {
         // Validate the INDEX.
         // If index input = -1 ..... This does not make any sense to remove the element at -1.
@@ -50,11 +50,8 @@ public class CustomArray {
         count--;
     }
 
-    private int getArrayLength() {
-        return items.length;
-    }
-
-    public void display(){
+    // OPERATION: Display
+    public void display() {
         // System.out.println(Arrays.toString(items));
         System.out.print("[");
         int itemsPrinted = 0;
@@ -66,6 +63,17 @@ public class CustomArray {
             itemsPrinted++;
         }
         System.out.print("]");
+    }
+
+    // OPERATION: Search
+    public void indexOf(int item) {
+        // We will loop the array - If we find the item then we return the index, Else we will return -1
+        for (int i=0 ; i<count ; i++) {
+            if(items[i] == item){
+                System.out.println("Item is found at position: "+i);
+            }
+        }
+        System.out.println("Item is found at position: -1");
     }
 
 }
