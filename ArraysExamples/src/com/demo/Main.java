@@ -3,7 +3,11 @@ package com.demo;
 public class Main {
 
     public static void main(String[] args) {
-        FundamentalsOfArray obj = new FundamentalsOfArray();
-        obj.printArrayLength();
+        CustomArray obj = new CustomArray(2);
+        obj.insert(10);
+        obj.insert(20);
+        obj.insert(30);
+        obj.insert(40);
+        obj.display();
     }
 }

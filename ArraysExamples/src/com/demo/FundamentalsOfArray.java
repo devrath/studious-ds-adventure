@@ -3,7 +3,7 @@ package com.demo;
 import java.util.Arrays;
 
 public class FundamentalsOfArray {
-    
+
     public void printArrayAddress() {
         int[] numbers = new int[10];
         System.out.println(numbers);
