@@ -62,15 +62,7 @@ public class CustomLinkedList {
 
     // OPERATION: contains
     public boolean contains(int item) {
-        var current = first;
-
-        while(current!=null){
-            if(current.value==item){
-                return true;
-            }
-            current = current.next;
-        }
-        return false;
+        return indexOf(item)!=-1;
     }
 
     /**
