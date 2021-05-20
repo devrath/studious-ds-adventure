@@ -123,4 +123,26 @@ public class CustomLinkedList {
         return first==null;
     }
 
+    // OPERATION: Reverse list in place
+    public void reverseList() {
+
+        if(!isEmpty()){
+            var previous = first;
+            var current = first.next;
+
+            while (current!=null){
+                var next = current.next;
+                current.next = previous;
+                previous = current;
+                current = next;
+            }
+            last = first;
+            last.next = null;
+            first = previous;
+        }else{
+            System.out.println("List is empty");
+        }
+
+    }
+
 }
