@@ -7,7 +7,7 @@ public class Main {
         list.addLast(10);
         list.addLast(20);
         list.addLast(30);
-        list.removeLast();
+        list.reverseList();
         System.out.println(list.getSize());
     }
 }
