@@ -60,6 +60,13 @@ public class CustomLinkedList {
         return -1;
     }
 
+    // OPERATION: removeFirst
+    public void removeFirst() {
+       var second = first.next;
+       first.next = null;
+       first = second;
+    }
+
     // OPERATION: contains
     public boolean contains(int item) {
         return indexOf(item)!=-1;
