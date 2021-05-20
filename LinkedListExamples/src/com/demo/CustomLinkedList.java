@@ -62,9 +62,13 @@ public class CustomLinkedList {
 
     // OPERATION: removeFirst
     public void removeFirst() {
-       var second = first.next;
-       first.next = null;
-       first = second;
+        if(!isEmpty()){
+            var second = first.next;
+            first.next = null;
+            first = second;
+        }else{
+            System.out.println("No elements are present");
+        }
     }
 
     // OPERATION: contains
