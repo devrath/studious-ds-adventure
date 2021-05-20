@@ -16,6 +16,8 @@ public class CustomLinkedList {
     private Node first = null;
     private Node last  = null;
 
+    private int size = 0;
+
     // OPERATION: addFirst
     public void addFirst(int item) {
         var node = new Node(item);
@@ -27,7 +29,7 @@ public class CustomLinkedList {
             node.next = first;
             first = node;
         }
-
+        size++;
     }
 
     // OPERATION: addLast
@@ -41,7 +43,7 @@ public class CustomLinkedList {
            last.next = node; // Point the reference of last node to the new node
            last=node; // Point the last to the node
         }
-
+        size++;
     }
 
     // OPERATION: indexOf
@@ -76,16 +78,24 @@ public class CustomLinkedList {
         if(first==last){
             // Just one element
             first=last=null;
+            size--;
             return;
         }else if(!isEmpty()){
             // remove last element since there are are more than one element
             var previousNode = getPreviousNode(); // Get the previous node
             last = previousNode; // Get the last but one previous node
             last.next = null; // Set the last node address to null
+
+            size--;
         } else{
             // No elements
             System.out.println("No elements are present");
         }
+    }
+
+    // OPERATION: getSize
+    public int getSize() {
+        return size;
     }
 
     // Get the previous node
