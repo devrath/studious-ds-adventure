@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	    var list = new CustomLinkedList();
-        /*list.addLast(10);
+        list.addLast(10);
         list.addLast(20);
-        list.addLast(30);*/
-        list.removeFirst();
-        System.out.println(list.contains(30));
+        list.addLast(30);
+        list.removeLast();
+        System.out.println(list.contains(20));
     }
 }

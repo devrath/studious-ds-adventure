@@ -71,6 +71,35 @@ public class CustomLinkedList {
         }
     }
 
+    // OPERATION: removeLast
+    public void removeLast() {
+        if(first==last){
+            // Just one element
+            first=last=null;
+            return;
+        }else if(!isEmpty()){
+            // remove last element since there are are more than one element
+            var previousNode = getPreviousNode(); // Get the previous node
+            last = previousNode; // Get the last but one previous node
+            last.next = null; // Set the last node address to null
+        } else{
+            // No elements
+            System.out.println("No elements are present");
+        }
+    }
+
+    // Get the previous node
+    private Node getPreviousNode() {
+        var current = first;
+        while (current!=null) {
+            if(current.next == last){
+                return current;
+            }
+            current = current.next;
+        }
+        return null;
+    }
+
     // OPERATION: contains
     public boolean contains(int item) {
         return indexOf(item)!=-1;
