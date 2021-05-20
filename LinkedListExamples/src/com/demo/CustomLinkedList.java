@@ -59,7 +59,20 @@ public class CustomLinkedList {
        }
         return -1;
     }
-    
+
+    // OPERATION: contains
+    public boolean contains(int item) {
+        var current = first;
+
+        while(current!=null){
+            if(current.value==item){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
     /**
      * If no nodes are present in the list
      * @return
