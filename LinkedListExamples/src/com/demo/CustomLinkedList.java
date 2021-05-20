@@ -11,8 +11,7 @@ public class CustomLinkedList {
             this.next = null;
         }
     }
-
-
+    
     private Node first = null;
     private Node last  = null;
 
