@@ -4,6 +4,11 @@
 
     <LinearLayout style="@style/launchBtnContainerStyle">
 
+        <Button
+            android:id="@+id/jetpackNavigationId"
+            android:text="Selection"
+            style="@style/launchBtnStyle"/>
+
     </LinearLayout>
 
 </ScrollView>
