@@ -16,20 +16,12 @@ class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(ArraysViewModel::class.java)
         binding.declareArraysId.setOnClickListener(this@ArraysFragment)
-        setObservables()
-    }
-
-    private fun setObservables() {
-        viewModel.output.observe(viewLifecycleOwner, { result ->
-            Logger.d(result)
-        })
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.declareArraysId -> {
                viewModel.declareArray()
-
             }
         }
     }

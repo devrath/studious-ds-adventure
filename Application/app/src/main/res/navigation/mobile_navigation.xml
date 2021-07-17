@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_notation">
+    app:startDestination="@+id/nav_array">
 
     <fragment
         android:id="@+id/nav_notation"
@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_notation" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_array"
         android:name="com.example.code.ui.arrays.ArraysFragment"
         android:label="@string/menu_array"
         tools:layout="@layout/fragment_arrays" />
