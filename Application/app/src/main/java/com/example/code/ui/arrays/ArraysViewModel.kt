@@ -9,6 +9,7 @@ class ArraysViewModel : ViewModel() {
     val output: LiveData<String> = _output
 
     fun declareArray() {
-        _output.value = "Answer"
+        val arrayData = arrayOf(5)
+        _output.value = "Devrath"
     }
 }

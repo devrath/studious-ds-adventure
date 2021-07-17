@@ -7,7 +7,7 @@
 
         <Button
             android:id="@+id/declareArraysId"
-            android:text="declaring_arrays"
+            android:text="@string/declaring_arrays"
             style="@style/launchBtnStyle"/>
 
     </LinearLayout>

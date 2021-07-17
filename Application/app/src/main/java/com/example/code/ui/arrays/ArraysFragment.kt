@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.code.R
 import com.example.code.databinding.FragmentArraysBinding
 import com.example.code.ui.base.BaseFragment
+import com.orhanobut.logger.Logger
 
 class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding::inflate) , View.OnClickListener{
 
@@ -20,14 +21,14 @@ class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding
 
     private fun setObservables() {
         viewModel.output.observe(viewLifecycleOwner, { result ->
-
+            Logger.d(result)
         })
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.declareArraysId -> {
-               // viewModel.declareArray()
+               viewModel.declareArray()
 
             }
         }
