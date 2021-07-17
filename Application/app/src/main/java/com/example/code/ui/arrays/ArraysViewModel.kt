@@ -10,7 +10,7 @@ import java.util.*
 class ArraysViewModel : ViewModel() {
     private val _output = MutableLiveData<String>()
 
-    fun declareArray() {
+    fun buildingCustomArray() {
         val arrays = Arrays(3)
         arrays.print()
 

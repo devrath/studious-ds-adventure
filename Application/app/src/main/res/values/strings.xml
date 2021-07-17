@@ -10,5 +10,5 @@
     <string name="menu_notation">Notation</string>
     <string name="menu_array">Arrays</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="declaring_arrays">Declaring Arrays</string>
+    <string name="building_custom_array">Building custom array</string>
 </resources>
