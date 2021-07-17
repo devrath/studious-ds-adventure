@@ -21,9 +21,9 @@ class ArraysViewModel : ViewModel() {
         arrays.insert(55)
         arrays.insert(66)
 
-        arrays.delete(3)
-
         arrays.print()
+
+        arrays.indexOf(55)
     }
 
 }
