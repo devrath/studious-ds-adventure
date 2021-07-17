@@ -9,17 +9,15 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.code.R
+import com.example.code.databinding.FragmentArraysBinding
+import com.example.code.ui.base.BaseFragment
 
-class ArraysFragment : Fragment() {
+class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding::inflate) {
 
     private lateinit var arraysViewModel: ArraysViewModel
 
-    override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
-    ): View? {
-        arraysViewModel = ViewModelProvider(this).get(ArraysViewModel::class.java)
-        return  inflater.inflate(R.layout.fragment_arrays, container, false)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
     }
 }
