@@ -10,12 +10,19 @@ class LinkedListViewModel : ViewModel() {
     fun buildingCustomLinkedList() {
 
         val lst = LinkedList()
-        lst.addLast(10)
-        lst.addLast(20)
-        lst.addLast(30)
-        lst.addLast(40)
 
-        println(lst)
+        lst.addFirst(10)
+        lst.addFirst(20)
+        lst.addFirst(30)
+        lst.addFirst(40)
+
+
+        lst.deleteLast()
+        lst.deleteLast()
+        lst.deleteLast()
+        lst.deleteLast()
+
+        //lst.deleteLast()
 
     }
 
