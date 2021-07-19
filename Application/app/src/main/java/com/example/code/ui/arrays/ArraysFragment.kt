@@ -7,7 +7,7 @@ import com.example.code.R
 import com.example.code.databinding.FragmentArraysBinding
 import com.example.code.ui.base.BaseFragment
 
-class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding::inflate) , View.OnClickListener{
+class ArraysFragment : BaseFragment<FragmentArraysBinding>(FragmentArraysBinding::inflate) , View.OnClickListener {
 
     private lateinit var viewModel : ArraysViewModel
 

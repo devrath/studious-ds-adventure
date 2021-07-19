@@ -8,7 +8,6 @@ import com.orhanobut.logger.Logger
 import java.util.*
 
 class ArraysViewModel : ViewModel() {
-    private val _output = MutableLiveData<String>()
 
     fun buildingCustomArray() {
         val arrays = Arrays(3)

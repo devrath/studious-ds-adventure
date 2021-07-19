@@ -7,8 +7,9 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_notation">Notation</string>
+    <string name="menu_linked_list">Linked List</string>
     <string name="menu_array">Arrays</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="building_custom_array">Building custom array</string>
+    <string name="building_custom_linked_list">Building custom linked list</string>
 </resources>

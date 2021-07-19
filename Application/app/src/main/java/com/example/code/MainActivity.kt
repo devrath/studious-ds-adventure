@@ -22,7 +22,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
 
         val navController = findNavController(R.id.nav_host_fragment)
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_notation, R.id.nav_array, R.id.nav_slideshow), binding.drawerLayout)
+                R.id.nav_linked_list, R.id.nav_array, R.id.nav_slideshow), binding.drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         binding.navView.setupWithNavController(navController)
     }

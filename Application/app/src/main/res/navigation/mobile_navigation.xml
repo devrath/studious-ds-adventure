@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_array">
+    app:startDestination="@+id/nav_linked_list">
 
     <fragment
-        android:id="@+id/nav_notation"
-        android:name="com.example.code.ui.home.NotationFragment"
-        android:label="@string/menu_notation"
-        tools:layout="@layout/fragment_notation" />
+        android:id="@+id/nav_linked_list"
+        android:name="com.example.code.ui.linkedList.LinkedListFragment"
+        android:label="@string/menu_linked_list"
+        tools:layout="@layout/fragment_linkedlist" />
 
     <fragment
         android:id="@+id/nav_array"
