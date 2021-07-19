@@ -6,8 +6,8 @@
     <LinearLayout style="@style/launchBtnContainerStyle">
 
         <Button
-            android:id="@+id/buildingLinkedListId"
-            android:text="@string/building_custom_linked_list"
+            android:id="@+id/revStrId"
+            android:text="@string/reversing_a_string"
             style="@style/launchBtnStyle"/>
 
     </LinearLayout>
