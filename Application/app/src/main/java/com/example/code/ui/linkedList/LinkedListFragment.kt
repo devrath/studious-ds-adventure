@@ -24,7 +24,7 @@ class LinkedListFragment : BaseFragment<FragmentLinkedlistBinding>(FragmentLinke
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.declareArraysId -> {
+            R.id.buildingLinkedListId -> {
                 viewModel.buildingCustomLinkedList()
             }
         }
