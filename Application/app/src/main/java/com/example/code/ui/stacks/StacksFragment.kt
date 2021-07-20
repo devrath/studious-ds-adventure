@@ -30,7 +30,7 @@ class StacksFragment : BaseFragment<FragmentStacksBinding>(FragmentStacksBinding
                 viewModel.reversingAString("mahesh")
             }
             R.id.balExpId -> {
-                viewModel.balancedExpression("((a+b)")
+                viewModel.balancedExpression("(a+b)")
             }
         }
     }

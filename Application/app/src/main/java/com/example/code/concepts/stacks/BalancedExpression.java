@@ -14,7 +14,12 @@ public class BalancedExpression {
             if(ch == '('){ stack.push(ch); }
 
             // Closing Brackets
-            if(ch == ')'){ stack.pop(); }
+            if(ch == ')'){
+                if(stack.isEmpty()){
+                    return false;
+                }
+                stack.pop();
+            }
         }
 
         return stack.isEmpty();
