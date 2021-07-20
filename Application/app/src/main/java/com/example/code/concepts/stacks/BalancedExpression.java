@@ -11,18 +11,40 @@ public class BalancedExpression {
 
         for(char ch : input.toCharArray()){
             // Opening Brackets
-            if(ch == '('){ stack.push(ch); }
+            if(isLeftExpression(ch)){
+                stack.push(ch);
+            }
 
             // Closing Brackets
-            if(ch == ')'){
+            if(isRightExpression(ch)){
                 if(stack.isEmpty()){
                     return false;
                 }
-                stack.pop();
+
+                char top = stack.pop();
+
+                if(isProperBracketPair(ch,top)) {
+                    return false;
+                }
             }
         }
 
         return stack.isEmpty();
+    }
+
+    private boolean isProperBracketPair(char ch , char top){
+        return (ch==')' && top!='(') ||
+                (ch==']' && top!='[') ||
+                (ch=='>' && top!='<') ||
+                (ch=='}' && top!='{');
+    }
+
+    private boolean isLeftExpression(char ch){
+        return ch == '(' || ch == '[' || ch == '{' || ch == '<';
+    }
+
+    private boolean isRightExpression(char ch){
+        return ch == ')' || ch == ']' || ch == '}' || ch == '>';
     }
 
 }
