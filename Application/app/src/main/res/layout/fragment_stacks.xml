@@ -10,6 +10,11 @@
             android:text="@string/reversing_a_string"
             style="@style/launchBtnStyle"/>
 
+        <Button
+            android:id="@+id/balExpId"
+            android:text="@string/balanced_expressions"
+            style="@style/launchBtnStyle"/>
+
     </LinearLayout>
 
 </ScrollView>

@@ -13,4 +13,5 @@
     <string name="building_custom_array">Building custom array</string>
     <string name="building_custom_linked_list">Building custom linked list</string>
     <string name="reversing_a_string">Reversing a string</string>
+    <string name="balanced_expressions">Balanced Expressions</string>
 </resources>
