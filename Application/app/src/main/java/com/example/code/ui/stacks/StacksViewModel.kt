@@ -17,5 +17,9 @@ class StacksViewModel : ViewModel() {
         Logger.d("Is expression balanced:-> $result")
     }
 
+    fun stackUsingArray() {
+
+    }
+
 
 }

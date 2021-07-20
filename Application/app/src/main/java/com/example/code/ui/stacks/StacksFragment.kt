@@ -21,6 +21,7 @@ class StacksFragment : BaseFragment<FragmentStacksBinding>(FragmentStacksBinding
         binding.apply {
             revStrId.setOnClickListener(this@StacksFragment)
             balExpId.setOnClickListener(this@StacksFragment)
+            stackUsingArray.setOnClickListener(this@StacksFragment)
         }
     }
 
@@ -31,6 +32,9 @@ class StacksFragment : BaseFragment<FragmentStacksBinding>(FragmentStacksBinding
             }
             R.id.balExpId -> {
                 viewModel.balancedExpression("(<a+b> + {a-n})")
+            }
+            R.id.stackUsingArray -> {
+                viewModel.stackUsingArray()
             }
         }
     }

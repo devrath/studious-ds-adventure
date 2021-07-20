@@ -6,6 +6,11 @@
     <LinearLayout style="@style/launchBtnContainerStyle">
 
         <Button
+            android:id="@+id/stackUsingArray"
+            android:text="@string/build_stack_using_array"
+            style="@style/launchBtnStyle"/>
+
+        <Button
             android:id="@+id/revStrId"
             android:text="@string/reversing_a_string"
             style="@style/launchBtnStyle"/>
