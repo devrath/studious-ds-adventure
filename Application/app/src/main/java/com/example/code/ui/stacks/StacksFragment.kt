@@ -22,6 +22,7 @@ class StacksFragment : BaseFragment<FragmentStacksBinding>(FragmentStacksBinding
             revStrId.setOnClickListener(this@StacksFragment)
             balExpId.setOnClickListener(this@StacksFragment)
             stackUsingArray.setOnClickListener(this@StacksFragment)
+            stackMinValId.setOnClickListener(this@StacksFragment)
         }
     }
 
@@ -35,6 +36,9 @@ class StacksFragment : BaseFragment<FragmentStacksBinding>(FragmentStacksBinding
             }
             R.id.stackUsingArray -> {
                 viewModel.stackUsingArray()
+            }
+            R.id.stackMinValId -> {
+                viewModel.stackMinimumValue()
             }
         }
     }

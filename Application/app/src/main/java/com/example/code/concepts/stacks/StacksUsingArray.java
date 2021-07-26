@@ -45,6 +45,9 @@ public class StacksUsingArray {
         Logger.d("Element deleted is: "+elementRemoved);
     }
 
+    /**
+     * Getting the top of the element from the stack
+     */
     public void peek() {
         if(position==0) { throw new IllegalStateException(); }
         Logger.d("Element: "+ourArray[position-1]);

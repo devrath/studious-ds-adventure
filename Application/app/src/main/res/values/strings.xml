@@ -15,4 +15,5 @@
     <string name="reversing_a_string">Reversing a string</string>
     <string name="balanced_expressions">Balanced Expressions</string>
     <string name="build_stack_using_array">Build stack using array</string>
+    <string name="find_minimum_value">Find Minimum value</string>
 </resources>

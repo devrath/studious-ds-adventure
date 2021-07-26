@@ -20,6 +20,11 @@
             android:text="@string/balanced_expressions"
             style="@style/launchBtnStyle"/>
 
+        <Button
+            android:id="@+id/stackMinValId"
+            android:text="@string/find_minimum_value"
+            style="@style/launchBtnStyle"/>
+
     </LinearLayout>
 
 </ScrollView>
