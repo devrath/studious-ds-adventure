@@ -45,10 +45,15 @@ public class StacksUsingArray {
         Logger.d("Element deleted is: "+elementRemoved);
     }
 
+    public void peek() {
+        if(position==0) { throw new IllegalStateException(); }
+        Logger.d("Element: "+ourArray[position-1]);
+    }
+
     /**
      * Printing the elements of the array
      */
-    public void printArray() {
+    public void print() {
         String result="";
 
         for(int i=0; i<position; i++){

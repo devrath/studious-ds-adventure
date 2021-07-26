@@ -5,7 +5,6 @@ import com.example.code.concepts.stacks.BalancedExpression
 import com.example.code.concepts.stacks.StacksUsingArray
 import com.example.code.concepts.stacks.StringReversal
 import com.orhanobut.logger.Logger
-import java.util.*
 
 class StacksViewModel : ViewModel() {
 
@@ -22,19 +21,18 @@ class StacksViewModel : ViewModel() {
     fun stackUsingArray() {
         val data = StacksUsingArray(5)
         data.pushItem(10)
-        data.printArray()
+        data.print()
         data.pushItem(20)
-        data.printArray()
+        data.print()
         data.pushItem(30)
-        data.printArray()
+        data.print()
         data.pushItem(40)
-        data.printArray()
+        data.print()
         data.pushItem(50)
-        data.printArray()
-
+        data.print()
         data.popItem()
-
-        data.printArray()
+        data.print()
+        data.peek()
     }
 
 
