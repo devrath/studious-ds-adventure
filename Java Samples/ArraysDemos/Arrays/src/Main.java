@@ -1,9 +1,9 @@
-import programs.Program1;
+import programs.ProgramBubbleSort;
 
 public class Main {
 
     public static void main(String[] args) {
-        Program1 prog = new Program1();
+        ProgramBubbleSort prog = new ProgramBubbleSort();
         prog.initiate();
     }
 
