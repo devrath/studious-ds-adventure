@@ -24,7 +24,7 @@ public class ProgramBubbleSort {
             positionToTraverse = 0;
             for(int j=positionToTraverse ; j<i ; j++){
                 /** ******* Here we control the first pointer ********
-                 * * -> On each iteration position is at teh beginning
+                 * * -> On each iteration position is at the beginning
                  * * -> continue until the pointer is less than sorted position pointer
                  * * -> On each iteration increment the index
                  ** ************************************************** **/
