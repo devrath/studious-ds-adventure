@@ -1,5 +1,7 @@
 package programs;
 
+import Utils.SwapItems;
+
 public class ProgramBubbleSort {
 
     public void initiate() {
@@ -29,7 +31,7 @@ public class ProgramBubbleSort {
                  * * -> On each iteration increment the index
                  ** ************************************************** **/
                 if(arrayToSort[j]>arrayToSort[j+1]){
-                    swapElement(arrayToSort,j,j+1);
+                    new SwapItems(arrayToSort,j,j+1);
                 }
             }
 
@@ -49,28 +51,5 @@ public class ProgramBubbleSort {
             System.out.println(arrayToSort[i]);
         }
     }
-
-    /**
-     * This function is used to swap the two elements in an array
-     * The two elements are picked up by the indices
-     */
-    private void swapElement(int[] array, int leftEleIndex, int rightEleIndex) {
-
-        // If the array size is zero then just return because there are no elements to swap
-        if(array.length==0){
-            return;
-        }
-
-        // If (leftEleIndex == rightEleIndex) => Do nothing since we cannot swap same element with itself
-        if(leftEleIndex == rightEleIndex){
-            return;
-        }
-
-        // Perform the swap
-        int temp = array[leftEleIndex];
-        array[leftEleIndex] = array[rightEleIndex];
-        array[rightEleIndex] = temp;
-    }
-
 
 }

@@ -1,5 +1,7 @@
 package programs;
 
+import Utils.PrintArray;
+
 import java.util.Scanner;
 
 public class Program1 {
@@ -15,13 +17,8 @@ public class Program1 {
         dataSet[4] = 50;
         dataSet[5] = 60;
 
-        System.out.println("---------------------------------------");
-        System.out.println("Length of the array:-> "+dataSet.length);
-        System.out.println("---------------------------------------");
-        for (int i=0 ; i< dataSet.length ; i++) {
-            System.out.println(dataSet[i]);
-        }
-        System.out.println("---------------------------------------");
+        // Print the array
+        new PrintArray(dataSet);
         System.out.println("Enter the value whose index has to be found !");
         Scanner scanner = new Scanner(System.in);
         String valueToBeFound = scanner.nextLine();
