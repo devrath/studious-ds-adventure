@@ -40,6 +40,8 @@ public class Main {
         queue.offer("Movie-4");
         System.out.println("Elements of Queue:-> "+queue);
         System.out.println("Checking the elements of Queue:-> "+queue.peek());
+        System.out.println("Elements removed from Queue:-> "+queue.poll());
+
 
     }
 }
