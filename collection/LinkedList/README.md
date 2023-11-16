@@ -5,7 +5,7 @@
   
 | `Contents` |
 | ---------- |
-| [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
+| [Fundamental programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
 | [Programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#programs) |
 
 </div>
@@ -25,7 +25,7 @@
 </div>
 
 
-## `Programs`
+## `Fundamental programs`
 
 * **Insertion Operations**  
   * [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/AppendElement)
