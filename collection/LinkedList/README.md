@@ -1,4 +1,4 @@
-# Linked List
+![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/3e4fa055-33be-493f-a43f-c62ca77603bf)
 
 
 <div align="center">
