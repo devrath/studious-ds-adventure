@@ -1,5 +1,5 @@
 ## 📺 `Problem statement`
-Appending the elements into the list
+Appending the elements to the list
 
 
 ## 📟 `Output`
@@ -7,5 +7,5 @@ Appending the elements into the list
 Elements ->[10-20-30]
 Head ----->10
 Tail ----->30
-Length --->6
+Length --->3
 ```
