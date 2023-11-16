@@ -1,11 +1,11 @@
 ## 📺 `Problem statement`
-Appending the elements to the list
+Removing the elements from the end of the list
 
 
 ## 📟 `Output`
 ```kotlin
-Elements ->[10-20-30]
-Head ----->10
-Tail ----->30
-Length --->3
+Elements ->[]
+Head ----->null
+Tail ----->null
+Length --->0
 ```
