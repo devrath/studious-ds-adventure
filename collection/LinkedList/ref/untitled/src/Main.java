@@ -1,8 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        new RemoveFirstElements();
+        int position = 3;
+        int valueToSet = 88;
+        new SetElement(position,valueToSet);
     }
-
 
 }
