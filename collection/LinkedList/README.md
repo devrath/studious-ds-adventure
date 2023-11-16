@@ -4,10 +4,10 @@
   
 | `Contents` |
 | ---------- |
-| [Comparing linked list with array list]() |
-| [Structure of array list]() |
-| [Structure of linked list]() |
-| [Big-O Comparing ArrayList with linked list]() |
+| [Comparing linked list with array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#comparing-linked-list-with-array-list-) |
+| [Structure of array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-array-list) |
+| [Structure of linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-linked-list) |
+| [Big-O Comparing ArrayList with linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#big-o-comparing-arraylist-with-linked-list) |
 
 </div>
 
