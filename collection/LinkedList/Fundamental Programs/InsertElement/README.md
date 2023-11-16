@@ -1,6 +1,5 @@
 ## 📺 `Problem statement`
-Setting a new element at a particular position in the list
-
+Inserting a new element at a particular position at a linked list
 
 ## 📟 `Output`
 Existing `data-set` --  Elements ->[10-20-30]
