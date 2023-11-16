@@ -1,5 +1,5 @@
 ## 📺 `Problem statement`
-Removing the elements from the end of the list
+Removing the elements from the begining of the list
 
 
 ## 📟 `Output`
