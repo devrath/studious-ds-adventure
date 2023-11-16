@@ -27,16 +27,16 @@
 
 ## `Programs`
 
-<div align="center">
-  
-| `Contents` |
-| ---------- |
-| [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/AppendElement) |
-| [Prepend element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/PrependElement) |
-| []() |
-| [Insert element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/InsertElement) |
+* **Insertion Operations**  
+  * [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/AppendElement)
+  * [Prepend element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/PrependElement)
+  * [Insert element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/InsertElement)
+* **Deletion Operations**
+  * [Remove first element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/RemoveFirstElement)
+  * [Remove last element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/RemoveLastElement)
+* **Printing Operations**
+  * [Print elements](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/PrintElements)  
 
-</div>
 
 
 
