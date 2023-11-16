@@ -1,11 +1,11 @@
 ## 📺 `Problem statement`
-Appending the elements to the list
+Prepending the elements to the list - Add elements to the beginning of the list
 
 
 ## 📟 `Output`
 ```kotlin
-Elements ->[10-20-30]
-Head ----->10
-Tail ----->30
+Elements ->[30-20-10]
+Head ----->30
+Tail ----->10
 Length --->3
 ```
