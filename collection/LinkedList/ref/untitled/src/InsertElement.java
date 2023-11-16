@@ -1,10 +1,10 @@
-public class SetElement {
+public class InsertElement {
 
     private Node head;
     private Node tail;
     private int length;
 
-    public SetElement(int position, int valueToSet) {
+    public InsertElement(int position, int valueToSet) {
         // Add elements to sample set
         addElements();
         // Set element
