@@ -73,7 +73,6 @@ public class AppendElements {
         while (currentNode!=null){
             buff.append(currentNode.value);
             currentNode = currentNode.next;
-            length++;
             if(currentNode!=null){
                 buff.append("-");
             }

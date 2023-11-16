@@ -24,6 +24,8 @@ public class PrintElements {
         head = newNode;
         // Point the tail to the new node
         tail = newNode;
+        // Increment length
+        length++;
     }
 
 
@@ -37,7 +39,6 @@ public class PrintElements {
         while (currentNode!=null){
             buff.append(currentNode.value);
             currentNode = currentNode.next;
-            length++;
             if(currentNode!=null){
                 buff.append("-");
             }
