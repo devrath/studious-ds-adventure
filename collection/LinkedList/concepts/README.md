@@ -1,4 +1,7 @@
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \]
-
-# studious-ds-adventure
-This repository contains the fundamental concepts of data structures
+## 🚧 `Output` 🚧
+```kotlin
+Elements ->[10]
+Head ----->10
+Tail ----->10
+Length --->1
+```
