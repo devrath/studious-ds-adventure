@@ -35,7 +35,7 @@ public class PrintElements {
 
         buff.append("[");
         while (currentNode!=null){
-            buff.append(head.value);
+            buff.append(currentNode.value);
             currentNode = currentNode.next;
             length++;
             if(currentNode!=null){
