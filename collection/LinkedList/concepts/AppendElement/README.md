@@ -1,4 +1,11 @@
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \]
+## 📺 `Problem statement`
+Appending the elements to the list
 
-# studious-ds-adventure
-This repository contains the fundamental concepts of data structures
+
+## 📟 `Output`
+```kotlin
+Elements ->[10-20-30]
+Head ----->10
+Tail ----->30
+Length --->3
+```
