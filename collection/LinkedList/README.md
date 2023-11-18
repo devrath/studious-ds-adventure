@@ -1,4 +1,4 @@
-# Linked List
+![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/3e4fa055-33be-493f-a43f-c62ca77603bf)
 
 
 <div align="center">
@@ -6,37 +6,31 @@
 | `Contents` |
 | ---------- |
 | [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
-| [Programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#programs) |
+| [Fundamental programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#fundamental-programs) |
 
 </div>
 
 
 ## `Concepts`
 
-<div align="center">
-  
-| `Contents` |
-| ---------- |
-| [Comparing linked list with array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#comparing-linked-list-with-array-list-) |
-| [Structure of array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-array-list) |
-| [Structure of linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-linked-list) |
-| [Big-O Comparing ArrayList with linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#big-o-comparing-arraylist-with-linked-list) |
-
-</div>
+* [Comparing linked list with array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#comparing-linked-list-with-array-list-) 
+* [Structure of array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-array-list) 
+* [Structure of linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-linked-list) 
+* [Big-O Comparing ArrayList with linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#big-o-comparing-arraylist-with-linked-list) 
 
 
-## `Programs`
+## `Fundamental programs`
 
-<div align="center">
-  
-| `Contents` |
-| ---------- |
-| [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/AppendElement) |
-| [Prepend element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/PrependElement) |
-| []() |
-| [Insert element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/concepts/InsertElement) |
+* **Insertion Operations**  
+  * [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/AppendElement)
+  * [Prepend element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/PrependElement)
+  * [Insert element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/InsertElement)
+* **Deletion Operations**
+  * [Remove first element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/RemoveFirstElement)
+  * [Remove last element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/RemoveLastElement)
+* **Printing Operations**
+  * [Print elements](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamental%20Programs/PrintElements)  
 
-</div>
 
 
 
