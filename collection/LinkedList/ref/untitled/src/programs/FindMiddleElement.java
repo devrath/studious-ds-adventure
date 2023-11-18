@@ -22,10 +22,10 @@ public class FindMiddleElement {
 
     private void findMiddleElement() {
 
-        if(length==0){
+        if(head==null){
             // No elements are present
             System.out.println("No elements are present, So we cannot find the middle element");
-        }else if(length==1){
+        }else if(head.next==null){
             // Just one element is present
             int middleElement = head.value;
             System.out.println("Middle Element:-> "+middleElement);
@@ -45,10 +45,12 @@ public class FindMiddleElement {
 
     // Add the elements to sample set
     private void addElements() {
-        append(createNode(10));
-        append(createNode(20));
-        append(createNode(30));
-        append(createNode(40));
+        append(createNode(4));
+        append(createNode(8));
+        append(createNode(15));
+        append(createNode(16));
+        append(createNode(23));
+        append(createNode(42));
     }
 
     /**
