@@ -1,20 +1,25 @@
 ## 📺 `Problem statement`
-There are elements in the linked list where duplicates are seen but there is a condition that they are sorted 
+There are elements in the list, There can be a possibility of being a cycle in the list. If the cycle is found print is found and if not print that it is not found. 
 
+## 🚡 `Input`
+```kotlin
+[1,2,3,4,5,6]
+Here address of 6 is points to 3
+```
 
 ## 📟 `Output`
 ```kotlin
-Elements before removing duplicates ----->[1-2-3-3-4]
-Elements after removing duplicates ------>[1-2-3-4]
+Cycle Detected !
 ```
 
 ## 🧭 `Observation and explanation`
 #### `Brute force approach`
-* Here we take a set and iterate all the elements one by one and add them to the list.
-* Then since the set keeps only unique elements, it ignores the duplicates. Finally, the set contains only unique elements
-* We iterate the list again and create a new list which results in sorted unique elements.
-* This is not an efficient solution if the data set is large (consumes extra space) also we need to perform iteration twice(`O(n2)`)
+* We can loop the elements of the list one by one and at each iteration add the address to a HashSet.
+* When adding the elements to HashSet if the address already exists then it indicates that there is a cycle.
+* This approach works but the problem with this is, It occupies `O(n)` in terms of `space complexity`.
 
 ### `Efficient solution`
-* We use a pointer approach.
-* We shall use two pointers where one pointer will point to the position that has all unique elements and another pointer will iterate the elements as the current node.
+* We can use `The Hare and Tortoise Algorithm` or in other words `The Floyd Warshall Algorithm`.
+* Here we perform iteration until we encounter the null value.
+* In each iteration we advance the hare by 2 steps and the tortoise by just one step.
+* If the hare meets the tortoise in the iteration, we break the loop indicating cycle is found 
