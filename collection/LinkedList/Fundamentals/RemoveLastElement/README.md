@@ -1,11 +1,19 @@
 ## 📺 `Problem statement`
-Removing the elements from the end of the list
+Given a list of elements in a linked list, Insert an element to a particular position.
 
 
-## 📟 `Output`
+## 📟 `DataSet`
+Existing data-set -- Elements ->[10-20-30]
+
+#### `Input`
 ```kotlin
-Elements ->[]
-Head ----->null
-Tail ----->null
-Length --->0
+int position = 1;
+int valueToSet = 88;
+```
+#### `Output`
+```kotlin
+Elements ->[10-88-30]
+Head ----->10
+Tail ----->30
+Length --->3
 ```
