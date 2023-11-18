@@ -1,11 +1,9 @@
-import programs.ReverseLinkedList;
+import programs.FindMiddleElement;
 
 public class Main {
 
     public static void main(String[] args) {
-        int position = 1;
-        int valueToSet = 88;
-        new ReverseLinkedList();
+        new FindMiddleElement();
     }
 
 }
