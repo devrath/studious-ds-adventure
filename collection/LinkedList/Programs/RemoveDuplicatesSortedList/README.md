@@ -1,17 +1,18 @@
 ## 📺 `Problem statement`
-Reversing a linked list in place
+There are elements in the linked list where duplicates are seen but there is a condition that they are sorted 
 
 
 ## 📟 `Output`
 ```kotlin
-Elements before reversing----->[10-20-30]
-Elements after reversing----->[30-20-10]
+Elements before removing duplicates ----->[1-2-3-3-4]
+Elements after removing duplicates ------>[1-2-3-4]
 ```
 
 ## 🧭 `Observation and explanation`
-#### `It basically consists of two parts`
-  * Reversing the pointers of the list on each iteration.
-  * Switching the positions of the `head` and `tail` nodes.
+#### `Brute force approach`
+* Here we take a set and iterate all the elements one by one and add them to the list.
+* Then since the set keeps only unique elements, it ignores the duplicates. Finally, the set contains only unique elements
+* We iterate the list again and create a new list which results in sorted unique elements.
+* This is not an efficient solution if the data set is large (consumes extra space) also we need to perform iteration twice(`O(n2)`)
 
-#### `Reversing the pointers of the list on each iteration`
-  * We shall take 3 pointer nodes and perform the operation
+### `Efficient solution`
