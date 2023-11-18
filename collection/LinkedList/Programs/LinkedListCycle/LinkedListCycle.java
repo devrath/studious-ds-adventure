@@ -77,7 +77,7 @@ public class LinkedListCycle {
         fourthNode.next = fifthNode;
         fifthNode.next = sixthNode;
         // Cycle
-        //sixthNode.next = thirdNode;
+        sixthNode.next = thirdNode;
         // Set length
         length = 6;
 
