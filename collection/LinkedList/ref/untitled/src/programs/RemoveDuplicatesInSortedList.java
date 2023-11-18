@@ -51,11 +51,6 @@ public class RemoveDuplicatesInSortedList {
                     currNode = currNode.next;
                }
             }
-
-            // Here at this position prev node will be at the end of list
-            // We explicitly indicate this is the last element in the list
-            prevNode.next = null;
-
         }
     }
 
