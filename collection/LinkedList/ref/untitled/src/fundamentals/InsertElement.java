@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class InsertElement {
 
     private Node head;

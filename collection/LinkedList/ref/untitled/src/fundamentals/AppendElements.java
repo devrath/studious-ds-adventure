@@ -1,10 +1,12 @@
-public class PrependElements {
+package fundamentals;
+
+public class AppendElements {
 
     private Node head;
     private Node tail;
     private int length;
 
-    public PrependElements() {
+    public AppendElements() {
         initiate();
         printElements();
     }
@@ -17,7 +19,6 @@ public class PrependElements {
         }
     }
 
-
     private void initiate() {
         // Node-1
         Node node1 = createNode(10);
@@ -26,33 +27,35 @@ public class PrependElements {
         // Node-3
         Node node3 = createNode(30);
 
-        // Prepend Node-1
-        prepend(node1);
-        // Prepend Node-2
-        prepend(node2);
-        // Prepend Node-3
-        prepend(node3);
+        // Append Node-1
+        append(node1);
+        // Append Node-2
+        append(node2);
+        // Append Node-3
+        append(node3);
     }
 
     /**
-     * OPERATION: Prepending the node at the end of the list
+     * OPERATION: Appending the node at the end of the list
      */
-    private void prepend(Node newNode) {
+    private void append(Node newNode) {
 
         if(length==0){
             // This is the first node to be added
             head = newNode;
             tail = newNode;
         }else{
-            // New node will point to existing node
-            newNode.next = head;
-            // Point head pointer to new node
-            head = newNode;
+            // Attach the last node to the new node
+            tail.next = newNode;
+            // Point he tail to the new node
+            tail = newNode;
         }
 
         // Increment the length
         length++;
+
     }
+
 
     /**
      * OPERATION: Creating a new node
