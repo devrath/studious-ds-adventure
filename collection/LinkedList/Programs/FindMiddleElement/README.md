@@ -1,11 +1,12 @@
 ## 📺 `Problem statement`
-Removing the elements from the begining of the list
-
+Finding the muddle element is the linked list
 
 ## 📟 `Output`
 ```kotlin
-Elements ->[]
-Head ----->null
-Tail ----->null
-Length --->0
+For Odd number of elements --> [4,8,15,16,23]
+Middle element ---------------> 15
+```
+```kotlin
+For Even number of elements --> [4,8,15,16,23,42]
+Middle element ---------------> 16
 ```
