@@ -16,3 +16,5 @@ Elements after removing duplicates ------>[1-2-3-4]
 * This is not an efficient solution if the data set is large (consumes extra space) also we need to perform iteration twice(`O(n2)`)
 
 ### `Efficient solution`
+* We use a pointer approach.
+* We shall use two pointers where one pointer will point to the position that has all unique elements and another pointer will iterate the elements as the current node.
