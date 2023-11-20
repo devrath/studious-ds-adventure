@@ -6,7 +6,7 @@
 | `Contents` |
 | ---------- |
 | [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
-| [Fundamentals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#fundamentals) |
+| [Fundamentals](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamentals) |
 | [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Programs) |
 
 </div>
