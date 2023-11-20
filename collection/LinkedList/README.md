@@ -6,7 +6,7 @@
 | `Contents` |
 | ---------- |
 | [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
-| [Fundamental programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#fundamental-programs) |
+| [Fundamentals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#fundamental-programs) |
 
 </div>
 
@@ -19,7 +19,7 @@
 * [Big-O Comparing ArrayList with linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#big-o-comparing-arraylist-with-linked-list) 
 
 
-## `Fundamental programs`
+## `Fundamentals`
 
 * **Insertion Operations**  
   * [Append element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamentals/AppendElement)
