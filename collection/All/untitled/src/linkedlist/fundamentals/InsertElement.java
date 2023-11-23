@@ -1,4 +1,4 @@
-package fundamentals;
+package linkedlist.fundamentals;
 
 public class InsertElement {
 

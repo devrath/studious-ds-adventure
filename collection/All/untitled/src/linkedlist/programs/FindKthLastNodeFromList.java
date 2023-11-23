@@ -1,22 +1,17 @@
-package programs;
+package linkedlist.programs;
 
-public class ReverseLinkedList {
+public class FindKthLastNodeFromList {
 
     private Node head;
     private Node tail;
     private int length;
 
-    public ReverseLinkedList() {
+    public FindKthLastNodeFromList() {
         // Add elements to sample set
         addElements();
-        // Print elements left after the operations
-        printElements("Elements before reversing");
-        // Set element
-        reverseElements();
-        // Print elements left after the operations
-        printElements("Elements after reversing");
+        // Get element
+        findKthElementFromEnd(1);
     }
-
 
     private class Node {
         int value;
@@ -26,42 +21,30 @@ public class ReverseLinkedList {
         }
     }
 
-    private void reverseElements() {
+    private void findKthElementFromEnd(int position) {
 
-        if(length==0){
-            // No elements are present in the list
-            System.out.println("No elements are present to reverse");
-        }else if(length==1){
-            // There is just one element present in the list
-            System.out.println("There is just one element so Item remains unchanged");
+        if((position<=0) || (position>length)){
+            // Invalid operation
+            System.out.println("Invalid operation");
         }else{
-            // There are more than one elements present in the list
-
-            // Initial pointer states
-            Node prevNode = null;
+            // Valid operation
             Node currentNode = head;
-            Node nextNode = currentNode.next;
 
-           for(int i=0 ; i<length ; i++){
-               // <----- On Each iteration ----->
+            Node leftPointer = head;
+            Node rightPointer = head;
 
-               // Next node will be -- next to current node
-               nextNode = currentNode.next;
-               // Change the direction of pointer
-               currentNode.next = prevNode;
+            // Move the right pointer to given positions
+            for(int i=0;i<position;i++){
+                rightPointer = rightPointer.next;
+            }
 
-               // point previous node pointer to current node
-               prevNode = currentNode;
-               // Current Node pointer to next node
-               currentNode = nextNode;
-           }
+            while(rightPointer!=null){
+                leftPointer=leftPointer.next;
+                rightPointer = rightPointer.next;
+            }
 
-           // Exchange the pointers of head and tail
-            Node temp = head;
-            head = tail;
-            tail = temp;
+            System.out.println("Result:-> "+leftPointer.value);
 
-            System.out.println("Done");
         }
 
     }

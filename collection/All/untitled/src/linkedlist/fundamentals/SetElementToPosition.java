@@ -1,15 +1,20 @@
-package fundamentals;
+package linkedlist.fundamentals;
 
-public class RemoveFirstElements {
+public class SetElementToPosition {
 
     private Node head;
     private Node tail;
     private int length;
 
-    public RemoveFirstElements() {
-        initiate();
+    public SetElementToPosition(int position, int valueToSet) {
+        // Add elements to sample set
+        addElements();
+        // Set element
+        setElement(position,valueToSet);
+        // Print elements left after the operations
         printElements();
     }
+
 
     private class Node {
         int value;
@@ -19,36 +24,32 @@ public class RemoveFirstElements {
         }
     }
 
-    private void initiate() {
-        // Add elements
+    private void setElement(int position, int valueToSet) {
+
+       if(position<=-1 || position>=length){
+           // <------ Position is invalid ------>
+           System.out.println("Invalid position to insert");
+       }else {
+           // <-- Elements are present(more than one), So we can insert into a position -->
+           // Traverse to a position
+           Node currentNode = head;
+           int traversePosition = 0;
+
+           while ((currentNode!=null) && (traversePosition!=position)){
+               currentNode = currentNode.next;
+               traversePosition++;
+           }
+           if(currentNode!=null){
+               currentNode.value = valueToSet;
+           }
+       }
+    }
+
+    // Add the elements to sample set
+    private void addElements() {
         append(createNode(10));
         append(createNode(20));
         append(createNode(30));
-        // Perform deletion from the beginning of list
-        removeFirstElement();
-        removeFirstElement();
-        removeFirstElement();
-    }
-
-    /**
-     * OPERATION: Removing the element from the beginning of the list
-     */
-    private void removeFirstElement() {
-        if(length==0){
-            // There are no elements
-            System.out.println("No elements are left to delete");
-        }else{
-            if(length==1){
-                // There is just one element
-                head = null;
-                tail = null;
-            }else{
-                // There are more than one element
-                Node nextNode = head.next;
-                head = nextNode;
-            }
-            length--;
-        }
     }
 
     /**
@@ -72,10 +73,6 @@ public class RemoveFirstElements {
 
     }
 
-    /**
-     * OPERATION: Creating a new node
-     */
-    private Node createNode(int value) { return  new Node(value);}
 
     /**
      * OPERATION: Printing the elements in the list
@@ -110,5 +107,11 @@ public class RemoveFirstElements {
         System.out.println("Length --->" + length);
 
     }
+
+
+    /**
+     * OPERATION: Creating a new node
+     */
+    private Node createNode(int value) { return  new Node(value);}
 
 }

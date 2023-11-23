@@ -1,4 +1,4 @@
-package programs;
+package linkedlist.programs;
 
 
 public class LinkedListCycle {
