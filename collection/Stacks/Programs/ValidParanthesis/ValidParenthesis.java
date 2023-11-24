@@ -2,11 +2,10 @@ package strings;
 
 import java.util.Stack;
 
-public class BalancedExpression {
+public class ValidParenthesis {
     // In our demo we shall support for 2 characters
     String input = "[{}]";
-    public BalancedExpression() {
-        inititate();
+    public ValidParenthesis() {
         System.out.println("Balanced expression --> "+inititate());
     }
 
@@ -26,9 +25,11 @@ public class BalancedExpression {
                     if(expStack.isEmpty()){
                         // No opening brackets are found - so indicate that expression is not balanced
                         return false;
-                    }else if(expStack.pop()!=input.charAt(i)){
-                        // As soon we encounter a mismatch b/w popped item and looping item, We return false, Since it will not be balanced
-                        return false;
+                    }else {
+                        if(expStack.pop()!=input.charAt(i)){
+                            // As soon we encounter a mismatch b/w popped item and looping item, We return false, Since it will not be balanced
+                            return false;
+                        }
                     }
                 }
             }
