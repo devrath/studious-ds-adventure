@@ -2,11 +2,15 @@
 
 ### 🧿 `Problem`
 * There is `array` given and a `number` is given as input.
-* We need to remove all the occurrences of `number` meaning the integer value printed indicates the elements that are there that does not contain the `number`.
+* We need to remove all the occurrences of `number` meaning the integer value printed indicates the elements that are there that do not contain the `number`.
 
 ### :electron: `Algorithm`
-
-
+* We use two pointers, `left-pointer` we keep at the beginning of the array, and the `right-pointer` we keep at the end of the array.
+* We use a loop until `left-pointer` is less than the `right-pointer`.
+* We keep moving the `left-pointer` until the `left-pointer` is not equal to `target-element`.
+* If the `left-pointer` is equal to `target-element` perform the swap and decrement the `right-pointer`.
+* Finally we increment the counter of `left-pointer` by one and return the result because the array starts from zero.
+  
 ### 🧪 `TestCases`
 **Example 1:**
 ```kotlin
