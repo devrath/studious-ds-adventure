@@ -1,7 +1,4 @@
-## 📺  `Array operations`
- * Inserting a new item
- * Removing item at a particular position in the array
- * Removing an element from the end
- * Index of an item
+## 📺  `Programs`
+ * [Reversing the elements in the array](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/ReverseArray)
 
 
