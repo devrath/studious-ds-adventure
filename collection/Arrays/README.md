@@ -1,65 +1,52 @@
-![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/3e4fa055-33be-493f-a43f-c62ca77603bf)
+![github-header-image (2)](https://github.com/devrath/studious-ds-adventure/assets/1456191/63bd8e8f-1f7d-4148-aefd-5230ab4605df)
 
 
 <div align="center">
   
 | `Contents` |
 | ---------- |
-| [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#concepts) |
-| [Fundamentals](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Fundamentals) |
-| [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/LinkedList/Programs) |
+| [Concepts]() |
+| [Fundamentals]() |
+| [Programs]() |
 
 </div>
 
 
 ## `Concepts`
 
-* [Comparing linked list with array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#comparing-linked-list-with-array-list-) 
-* [Structure of array list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-array-list) 
-* [Structure of linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#structure-of-linked-list) 
-* [Big-O Comparing ArrayList with linked list](https://github.com/devrath/studious-ds-adventure/blob/main/collection/LinkedList/README.md#big-o-comparing-arraylist-with-linked-list) 
+### `What are arrays`
+* Arrays are of the data structures, which are used to store a `list of numbers`,` list of characters`,` list of integers`,` list of objects`, whatever.
+* Important context here is that Items are stored continuously in the memory location by one after another what we refer to as sequentially.
+* Arrays are unlike linked lists where the linked list elements are distributed throughout the memory locations.
 
-------------
+### `Structure of arrays`
+![Untitled Diagram drawio](https://github.com/devrath/studious-ds-adventure/assets/1456191/052dfa49-5536-4e0c-9ffd-e175f54ecb55)
+* Observe in the array above, We have an array of integers.
+* Let's say the initial address is `100` and each array holds `4` bytes of memory. Thus next address would be `104` and so on.
 
-### `Comparing linked list with array list `
-* An array list is the data structure linked list commonly compared with because `linked list` is `dynamic in length` just like the `array list` but the arrays are fixed in length. 
-* In the `linked list` we cannot go to a particular position based on the index.
-* In the `array list`, all the elements are in a contiguous place in the memory but in the `linked list` the elements are spread out.
+### `Disadvantages of arrays`
+* Since the array size is fixed, We need to give a defined size for it when creating the array.
+* If more items are to be added to the existing array and the array is filled, We need to `re-size` the array, meaning we need to create a new array copy all the elements from the old array to the new array, and then add the new element.
+* In the deletion operation, If the element has to be deleted from the end then it's simple, we can access by index and remove the item. But if it has to be deleted from the beginning, then we need to clear the item at the first position and shift all the elements from the right side to the left side.
 
-------------
+### `When to use an array and when not to use array`
+* If we know the size of items and we are involved in getting the elements by index, then we choose arrays
+* If operations involve insertion and deletion that involves dynamically increasing and decreasing the element's size, we use a linked list.
 
-### `Structure of array list`
-![Untitled Diagram drawio](https://github.com/devrath/studious-ds-adventure/assets/1456191/bb6539e5-8f0a-410d-b89a-0a68cc3c5caa)
-* Note that the elements are stored continuously in the memory.
-* We have access to the index
-
-------------
-
-### `Structure of linked list`
-![Untitled Diagram drawio1](https://github.com/devrath/studious-ds-adventure/assets/1456191/124d2602-aa2d-4e7c-be85-8ab2497a49bd)
-* Observe that each node has a field that points to the next node.
-* There is a pointer called `head` that points to the first node.
-* There is a pointer called `tail` that points to the last node.
-* The last node points to `null` indicating that it is the end of the node and null states it does not point to anything but since there is a variable, we add null to it.
-* Observe that it is not contiguous memory locations but rather is distributed throughout the memory locations.
-
-------------
-
-### `Big-O Comparing ArrayList with linked list`  
-
-| `Operation`   | `Linked List`   | `Array List`   |
-| ------------- | --------------- | -------------- |
-|   Append      |     O(1)        |     O(1)       |
-|  RemoveLast   |     O(n)        |     O(1)       |
-|   Prepend     |     O(1)        |     O(n)       |
-| RemoveFirst   |     O(1)        |     O(n)       |
-|   Insert      |     O(n)        |     O(n)       |
-|   Remove      |     O(n)        |     O(n)       |
-| LookUpByIndex |     O(n)        |     O(1)       |
-| LookUpByValue |     O(n)        |     O(n)       |
+### `Time Complexities`
+| `Operation` | `Complexity` |
+| ----------- | ------------ |
+| Look up | O(1) |
+| Inserting | O(n) |
+| Deleting | O(n) |
 
 
-## `Programs`
+
+
+
+
+
+
 
 
 
