@@ -36,9 +36,10 @@
 ### `Time Complexities`
 | `Operation` | `Complexity` |
 | ----------- | ------------ |
-| Look up | O(1) |
-| Inserting | O(n) |
-| Deleting | O(n) |
+| Look up by index | O(1) |
+| Look up by value | O(n) |
+| Inserting        | O(n) |
+| Deleting         | O(n) |
 
 
 
