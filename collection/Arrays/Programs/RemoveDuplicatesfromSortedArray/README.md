@@ -1,36 +1,29 @@
-## 📺  `Two Sum`
+## 📺  `Remove Duplicates from Sorted Array`
 
 ### 🧿 `Problem`
-* Given an array of integer nums and an integer target, return indices of the two numbers such that they add up to the target.
-* You may assume that each input would have exactly one solution, and you may not use the same element twice.
-* You can return the answer in any order.
+* Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+* Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+  * Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The 
+    remaining elements of nums are not important as well as the size of nums.
+  * Return k.
 
 ### :electron: `Algorithm`
-* We know the target element and a bunch of input elements.
-* Now using the 2 parameters that are known, we shall find the result parameter.
-* Basically we shall keep a `hashmap` and add the `key,value` pairs where `key` is the items and `value` is the index of the item.
-* Now we loop the input array again and use the formulae `Result = Target - ItemUnderLoop`.
-* We check in each iteration If the `Result` is present in the initial hashmap prepared.
-* If the item is present then get the `index(value)` by using the `key(result)`.
-* Result will be `that index` and the `current index` in the loop. Add a condition here that if both are not equal, if equal, return zero for both index
 
 ### 🧪 `TestCases`
 **Example 1:**
 ```kotlin
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
 ```
 **Example 2:**
-```kotlin
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
-```
-**Example 3:**
-```kotlin
-Input: nums = [3,3], target = 6
-Output: [0,1]
-```
 
+```kotlin
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+```
 
 
