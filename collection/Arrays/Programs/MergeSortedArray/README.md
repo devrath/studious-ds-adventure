@@ -1,36 +1,36 @@
-## 📺  `Remove Duplicates from Sorted Array`
+## 📺  `Merge Sorted array`
 
 ### 🧿 `Problem`
-* Given an integer array nums sorted in non-decreasing order, remove the duplicates in place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
-* Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
-  * Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The 
-    remaining elements of nums are not important as well as the size of nums.
-  * Return k.
+* You are given two integer arrays `nums1` and `nums2`
+* They're sorted in non-decreasing order.
+* There are two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
+* Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+* The final sorted array should not be returned by the function, but instead be stored inside the array nums1
+* To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
 
 ### :electron: `Algorithm`
-* We shall use two pointers `left-pointer` and `right-pointer`.
-* We shall use a loop and keep iterating until the `right-pointer` is less than the `total size`.
-* On each iteration, If the item at `left-pointer` is equal to the item at `right-pointer` increment the `right-pointer` --- > Keep doing this.
-* If on an iteration, `right-pointer` becomes greater than `left-pointer` --> increment left `left-pointer` and then copy item at `right-pointer` to `left-pointer`
-* Wait until the loop gets finished.
-* Now once the loop ends, increment the counter of `left-pointer` because the array position starts from zero.
-* Return the `left-pointer` value as result.
+
 
 ### 🧪 `TestCases`
 **Example 1:**
 ```kotlin
-Input: nums = [1,1,2]
-Output: 2, nums = [1,2,_]
-Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 ```
 **Example 2:**
-
 ```kotlin
-Input: nums = [0,0,1,1,1,2,2,3,3,4]
-Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
-Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
+Input: nums1 = [1], m = 1, nums2 = [], n = 0
+Output: [1]
+Explanation: The arrays we are merging are [1] and [].
+The result of the merge is [1].
 ```
-
-
+**Example 3:**
+```kotlin
+Input: nums1 = [0], m = 0, nums2 = [1], n = 1
+Output: [1]
+Explanation: The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+```
