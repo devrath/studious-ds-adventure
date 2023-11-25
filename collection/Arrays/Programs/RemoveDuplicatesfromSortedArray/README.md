@@ -1,13 +1,20 @@
 ## 📺  `Remove Duplicates from Sorted Array`
 
 ### 🧿 `Problem`
-* Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+* Given an integer array nums sorted in non-decreasing order, remove the duplicates in place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 * Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
   * Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The 
     remaining elements of nums are not important as well as the size of nums.
   * Return k.
 
 ### :electron: `Algorithm`
+* We shall use two pointers `left-pointer` and `right-pointer`.
+* We shall use a loop and keep iterating until the `right-pointer` is less than the `total size`.
+* On each iteration, If the item at `left-pointer` is equal to the item at `right-pointer` increment the `right-pointer` --- > Keep doing this.
+* If on an iteration, `right-pointer` becomes greater than `left-pointer` --> increment left `left-pointer` and then copy item at `right-pointer` to `left-pointer`
+* Wait until the loop gets finished.
+* Now once the loop ends, increment the counter of `left-pointer` because the array position starts from zero.
+* Return the `left-pointer` value as result.
 
 ### 🧪 `TestCases`
 **Example 1:**
