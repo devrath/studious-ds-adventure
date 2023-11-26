@@ -6,5 +6,6 @@
  * [Removing the duplicates from sorted array](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/RemoveDuplicatesfromSortedArray)
  * [RemoveElement](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/RemoveElement)
  * [Merge Sorted Array](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/MergeSortedArray)
+ * [Move Zeros](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/MoveZeros)
 
 
