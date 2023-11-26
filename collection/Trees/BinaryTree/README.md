@@ -6,7 +6,7 @@
 | [What is binary search tree(BST)](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
 | [What is the difference between a normal tree and a binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
 | [What is the difference between a binary tree and a binary-search-tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-the-difference-between-a-binary-tree-and-a-binary-search-tree) |
-| [Time complexity]() |
+| [Time complexity](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#%EF%B8%8F-time-complexity) |
 
 </div>
 
@@ -64,6 +64,6 @@ In a `normal tree`, A node can have `n-children` but in a `binary tree` a node c
 ## ⏲️ `Time complexity`  
 | `Operation` | `Complexity` |
 | ----------- | ------------ |
-| Insert | O(llogn) |
-| Deletion | O(llogn) |
-| Lookup | O(llogn) |
+| Insert | O(logn) |
+| Deletion | O(logn) |
+| Lookup | O(logn) |
