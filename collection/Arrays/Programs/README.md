@@ -9,5 +9,6 @@
  * [Contains Duplicates](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/ContainsDuplicate)
  * [Move Zeros](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/MoveZeros)
  * [Mejority Element](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/MejorityElement)
+ * [Single Number](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/SingleNumber)
 
 
