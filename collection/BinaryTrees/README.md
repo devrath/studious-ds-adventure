@@ -10,6 +10,10 @@
 </div>
 
 ## `About`
+* `Trees` come under the non-linear data structures.
+* The elements here are organized in the form of a hierarchy.
+* The elements are called `NODES` and the lines that connect them are called `EDGES`
+* 
 
 
 
