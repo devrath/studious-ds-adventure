@@ -61,7 +61,7 @@ In a `normal tree`, A node can have `n-children` but in a `binary tree` a node c
   * Binary Tree -> Its slower around order `O(n)`
   * Binary search tree -> It is faster since its ordered and of `O(nlogn)`
  
-## :⏲️ `Time complexity`  
+## ⏲️ `Time complexity`  
 | `Operation` | `Complexity` |
 | ----------- | ------------ |
 | Insert | O(llogn) |
