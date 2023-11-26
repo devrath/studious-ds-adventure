@@ -5,7 +5,7 @@
   
 | `Contents` |
 | ---------- |
-| [About](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Stacks/README.md#programs) |
+| [About](https://github.com/devrath/studious-ds-adventure/tree/main/collection/BinaryTrees#about) |
 
 </div>
 
