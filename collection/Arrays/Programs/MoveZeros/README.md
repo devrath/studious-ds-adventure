@@ -1,4 +1,4 @@
-## 📺  `Merge Sorted array`
+## 📺  `Move Zeros`
 
 ### 🧿 `Problem`
 * Given an integer array nums, move all 0's to the end
