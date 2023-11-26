@@ -5,8 +5,8 @@
   
 | `Contents` |
 | ---------- |
-| [About Trees](https://github.com/devrath/studious-ds-adventure/blob/main/collection/BinaryTrees/README.md#about-trees) |
-| [Binary Tree]() |
+| [About Trees](https://github.com/devrath/studious-ds-adventure/blob/main/collection/BinaryTrees/README.md#-about-trees) |
+| [Binary Tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/BinaryTrees/README.md#-binary-tree) |
 
 </div>
 
