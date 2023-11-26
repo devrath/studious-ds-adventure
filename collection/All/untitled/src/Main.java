@@ -3,6 +3,6 @@ import arrays.programs.*;
 
 public class Main {
 
-    public static void main(String[] args) { new MejorityElement(); }
+    public static void main(String[] args) { new SingleNumber(); }
 
 }
