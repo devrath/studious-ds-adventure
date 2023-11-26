@@ -3,6 +3,6 @@ import arrays.programs.*;
 
 public class Main {
 
-    public static void main(String[] args) { new MoveZeros(); }
+    public static void main(String[] args) { new MejorityElement(); }
 
 }
