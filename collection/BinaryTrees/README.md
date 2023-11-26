@@ -5,11 +5,12 @@
   
 | `Contents` |
 | ---------- |
-| [About Trees](https://github.com/devrath/studious-ds-adventure/tree/main/collection/BinaryTrees#about) |
+| [About Trees](https://github.com/devrath/studious-ds-adventure/blob/main/collection/BinaryTrees/README.md#about-trees) |
+| [Binary Tree]() |
 
 </div>
 
-## `About Trees`
+## 🌴 `About Trees`
 <div align="center">
   
 ![bt](https://github.com/devrath/studious-ds-adventure/assets/1456191/51a13d9c-38ac-4ecd-a72a-bcb297912bd0)
@@ -23,6 +24,6 @@
 * The parent most node is called as the `ROOT` node, and the end elements are called `LEAF` nodes.
   
 
-
+## 🌲 `Binary Tree`
 
 
