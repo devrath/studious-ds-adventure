@@ -2,10 +2,10 @@
   
 | `Contents` |
 | ---------- |
-| [What is binary tree]() |
-| [What is the difference between a normal tree and a binary tree]() |
-| [What is binary search tree(BST)]() |
-| [What is the difference between a binary tree and a binary-search-tree]() |
+| [What is binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-a-binary-tree) |
+| [What is binary search tree(BST)](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
+| [What is the difference between a normal tree and a binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
+| [What is the difference between a binary tree and a binary-search-tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-the-difference-between-a-binary-tree-and-a-binary-search-tree) |
 
 </div>
 
