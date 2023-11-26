@@ -20,10 +20,10 @@
 * The elements here are organized in the form of a hierarchy.
 * The elements are called `NODES` and the lines that connect them are called `EDGES`.
 * Each node contains data, In the diagram above we have integers, But in the real world, we can have objects.
-* The parent most node is called as the `ROOT` node, and the end elements are called `LEAF` nodes.
+* The parent most node is called the `ROOT` node, and the end elements are called `LEAF` nodes.
   
-
 ## 🌲 `Types of trees`
+* Binary Trees
 
 
 
