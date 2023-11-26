@@ -6,7 +6,7 @@
   
 | `Contents` |
 | ---------- |
-| [Programs](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Stacks/README.md#programs) |
+| [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs) |
 
 </div>
 
