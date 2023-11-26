@@ -5,7 +5,9 @@
 * You must implement a solution with a linear runtime complexity and use only constant extra space.
 
 ### :electron: `Algorithm`
-
+* We can use `XOR` operator for this.
+* We shall keep an initial value in a variable from the first index, Then in a loop from the next index we iterate and perform `xor` operation.
+* The result we replace with the initial variable field on each iteration and return it after loop is completed.
 
 ### 🧪 `TestCases`
 **Example 1:**
