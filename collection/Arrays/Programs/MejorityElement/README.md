@@ -1,4 +1,4 @@
-## 📺  `Merge Sorted array`
+## 📺  `Mejority Element`
 
 ### 🧿 `Problem`
 * You are given two integer arrays `nums1` and `nums2`
