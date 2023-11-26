@@ -9,6 +9,12 @@
 * To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
 
 ### :electron: `Algorithm`
+* We shall use three-pointers
+  * `leftPointer` pointing to `m` which is the elements filled of the left array.
+  * Then we shall use `rightPointer` pointing to `n` which is pointing to the elements filled in the right array.
+  * Finally `resultPointer` points to the end of the left array.
+* We shall add a for loop to loop until `rightPointer` is greater than or equal to zero
+* Inside the loop we compare the elements at `leftPointer` of `leftArray` with the elements of `rightPointer` of `rightArray` based on which is a greater copy of the greatest element to `resultPointr` position of `leftarray`.
 
 
 ### 🧪 `TestCases`
