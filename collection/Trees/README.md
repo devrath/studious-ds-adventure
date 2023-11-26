@@ -1,5 +1,4 @@
-![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/24436229-ceda-446c-a4e3-efad7622f63b)
-
+![christmas-5753657_960_720](https://github.com/devrath/studious-ds-adventure/assets/1456191/5b8c4a5c-c68a-43ff-b5c7-5e2cb2c50941)
 
 <div align="center">
   
