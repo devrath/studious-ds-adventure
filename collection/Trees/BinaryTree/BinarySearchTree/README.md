@@ -6,7 +6,7 @@
 | [What is the difference between a binary tree and a binary-search-tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#what-is-the-difference-between-a-binary-tree-and-a-binary-search-tree) |
 | [Time complexity](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#%EF%B8%8F-time-complexity) |
 | [Fundamental Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree/Fundamentals) |
-
+| [Tree Traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#tree-traversals) |
 
 </div>
 
