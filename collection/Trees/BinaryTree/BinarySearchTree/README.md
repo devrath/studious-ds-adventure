@@ -49,12 +49,6 @@
 
 <div align="center">
   
-![levelOrder](https://github.com/devrath/studious-ds-adventure/assets/1456191/0ec9f489-8128-4251-8b31-638280ef9ae6)
-
-</div>
-
-<div align="center">
-  
 | `Contents` |
 | ---------- |
 | [About traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#about-traversals) |
@@ -75,18 +69,30 @@
 ### Breadth First Traversal:
 * Here we visit all the nodes in one level before visiting the nodes at another level.
 * This is called level order traversal.
-* In the above tree if we do level order traversal result would be ` [7,4,9,1,6,8,10] `
 
 ### Depth First Traversal:   
 The depth-first traversals are divided into 3 types
-* Pre-Order traversal ---------> ` [7,4,1,6,9,8,10] `
-* In-Order traversal ----------> ` [1,4,6,7,8,9,10] `
-* Post-Order traversal --------> ` [1,6,4,8,10,9,7] `
+* Pre-Order traversal ---------> `Root-Left-Right`
+* In-Order traversal ----------> `Left-Root-Right`
+* Post-Order traversal --------> `Left-Right-Root`
 
 ## `Sample traversal using depth-first traversals`  
+<div align="center">
+  
+![levelOrder](https://github.com/devrath/studious-ds-adventure/assets/1456191/0ec9f489-8128-4251-8b31-638280ef9ae6)
+
+| `Traversal Type` | `Data`                     |
+| ---------------- | -------------------------- |
+| Level order traversal | ` [7,4,9,1,6,8,10] ` |
+| Pre-Order traversal  | ` [7,4,1,6,9,8,10] `   |
+| In-Order traversal   | ` [1,4,6,7,8,9,10] `   |
+| Post-Order traversal | ` [1,6,4,8,10,9,7] `   |
+
 ![3](https://github.com/devrath/studious-ds-adventure/assets/1456191/122077d0-a4aa-4f6f-a3c0-1cfc1de9f4c1)
 | `Traversal Type` | `Data`                              |
 | ---------------- | ----------------------------------- |
 | Pre-Order traversal  | ` [20,10,6,3,8,14,30,24,26] `   |
 | In-Order traversal   | ` [3,6,8,10,14,20,24,26,30] `   |
 | Post-Order traversal | ` [3,8,6,14,10,26,24,30,20] `   |
+
+</div>
