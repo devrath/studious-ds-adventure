@@ -85,6 +85,8 @@ The depth-first traversals are divided into 3 types
 
 ## `Sample traversal using depth-first traversals`  
 ![3](https://github.com/devrath/studious-ds-adventure/assets/1456191/122077d0-a4aa-4f6f-a3c0-1cfc1de9f4c1)
-* Pre-Order traversal ---------> ` [20,10,6,3,8,14,30,24,26] `
-* In-Order traversal ----------> ` [3,6,8,10,14,20,24,26,30] `
-* Post-Order traversal --------> ` [3,8,6,14,10,26,24,30,20] `
+| `Traversal Type` | `Data`                              |
+| ---------------- | ----------------------------------- |
+| Pre-Order traversal  | ` [20,10,6,3,8,14,30,24,26] `   |
+| In-Order traversal   | ` [3,6,8,10,14,20,24,26,30] `   |
+| Post-Order traversal | ` [3,8,6,14,10,26,24,30,20] `   |
