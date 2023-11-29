@@ -67,6 +67,6 @@
 
 ### Depth First Traversal:   
 The depth-first traversals are divided into 3 types
-* Pre-Order traversal ---------> ` [7,4,1,6,9,8,10]  `
+* Pre-Order traversal ---------> ` [7,4,1,6,9,8,10] `
 * In-Order traversal  ---------> ` [1,4,6,7,8,9,10] `
 * Post-Order traversal --------> ` [1,6,4,8,10,9,7] `
