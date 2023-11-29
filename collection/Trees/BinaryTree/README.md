@@ -4,7 +4,7 @@
 | ---------- |
 | [What is binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-a-binary-tree) |
 | [What is the difference between a normal tree and a binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
-| [Types of Binary tree]() |
+| [Types of Binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#types-of-binary-tree) |
 
 </div>
 
