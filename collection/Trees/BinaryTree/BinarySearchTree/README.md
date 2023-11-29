@@ -53,6 +53,18 @@
 
 </div>
 
+<div align="center">
+  
+| `Contents` |
+| ---------- |
+| [About traversals]() |
+| [Categories of traversals]() |
+| [Sample traversal using depth-first traversals]() |
+
+</div>
+
+
+## `About traversals`
 * In linear data structures, there is just one possibility, We start at the beginning and traverse in such a way until we reach the end of the data structure.
 * But in the non-linear data-structure trees, we start at one node and we have 2 possibilities, either go left or go right and this repeats until we reach the leaf nodes.
 
