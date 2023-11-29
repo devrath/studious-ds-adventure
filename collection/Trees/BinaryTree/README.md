@@ -4,6 +4,7 @@
 | ---------- |
 | [What is binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-a-binary-tree) |
 | [What is the difference between a normal tree and a binary tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/README.md#what-is-binary-search-treebst) |
+| [Types of Binary tree]() |
 
 </div>
 
@@ -28,3 +29,6 @@
 | ![bst-4](https://github.com/devrath/studious-ds-adventure/assets/1456191/003192ea-94c4-4c62-8725-c23116075727) | ![bst](https://github.com/devrath/studious-ds-adventure/assets/1456191/cb132f95-0031-4a49-9bea-0b1d9bf6a50b) | 
 
 In a `normal tree`, A node can have `n-children` but in a `binary tree` a node can have a maximum of two children, also no children, just one child.
+
+## `Types of Binary tree`
+* [Binary Search Tree](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree)
