@@ -57,8 +57,8 @@
   
 | `Contents` |
 | ---------- |
-| [About traversals]() |
-| [Categories of traversals]() |
+| [About traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#about-traversals) |
+| [Categories of traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#categories-of-traversals) |
 | [Sample traversal using depth-first traversals]() |
 
 </div>
@@ -82,3 +82,9 @@ The depth-first traversals are divided into 3 types
 * Pre-Order traversal ---------> ` [7,4,1,6,9,8,10] `
 * In-Order traversal ----------> ` [1,4,6,7,8,9,10] `
 * Post-Order traversal --------> ` [1,6,4,8,10,9,7] `
+
+## `Sample traversal using depth-first traversals`  
+![3](https://github.com/devrath/studious-ds-adventure/assets/1456191/122077d0-a4aa-4f6f-a3c0-1cfc1de9f4c1)
+* Pre-Order traversal ---------> ` [20,10,6,3,8,14,30,24,26] `
+* In-Order traversal ----------> ` [3,6,8,10,14,20,24,26,30] `
+* Post-Order traversal --------> ` [3,8,6,14,10,26,24,30,20] `
