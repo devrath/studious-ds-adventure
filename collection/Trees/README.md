@@ -23,7 +23,7 @@
 * The parent most node is called the `ROOT` node, and the end elements are called `LEAF` nodes.
   
 ## 🌲 `Types of trees`
-* Binary Trees
+* [Binary Trees](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree)
 
 
 
