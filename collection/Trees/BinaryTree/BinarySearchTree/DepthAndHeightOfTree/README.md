@@ -6,6 +6,7 @@
 | [Height of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#height-of-the-node) |
 | [Distinguishing depth and height](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#distinguishing-depth-and-height) |
 | [Logic to calculate the height of BST](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree#logic-to-calculate-the-height-of-bst) |
+| [Maximum depth of a BST]() |
 
 </div>
 
