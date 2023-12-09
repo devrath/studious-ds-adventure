@@ -1,4 +1,5 @@
 import BinaryTrees.CustomTree;
+import BinaryTrees.DepthAndHeightOfTree;
 import BinaryTrees.TraversalsInBinarySearchTree;
 import arrays.fundamentals.CustomArray;
 import arrays.programs.*;
@@ -8,15 +9,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TraversalsInBinarySearchTree tree = new TraversalsInBinarySearchTree();
-        tree.insert(7);
-        tree.insert(4);
-        tree.insert(9);
-        tree.insert(1);
-        tree.insert(6);
-        tree.insert(8);
+        DepthAndHeightOfTree tree = new DepthAndHeightOfTree(10);
+        tree.insert(20);
         tree.insert(10);
-        tree.postOrderTraversal();
+        tree.insert(30);
+        tree.insert(6);
+        tree.insert(21);
+        tree.insert(4);
+        tree.insert(3);
+        tree.insert(8);
+        tree.calculateHeight();
 
     }
 
