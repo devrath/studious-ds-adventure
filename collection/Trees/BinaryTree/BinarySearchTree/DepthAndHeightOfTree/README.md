@@ -6,7 +6,7 @@
 | [Height of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#height-of-the-node) |
 | [Distinguishing depth and height](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#distinguishing-depth-and-height) |
 | [Logic to calculate the height of BST](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree#logic-to-calculate-the-height-of-bst) |
-| [Maximum depth of a BST]() |
+| [Maximum depth of a BST](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#maximum-depth-of-a-bst) |
 
 </div>
 
@@ -39,4 +39,5 @@
 * We apply `Post order traversal` technique to get the height of BST.
 
 ## `Maximum depth of a BST`
-
+#### `Definition`
+* Defining the height of the binary tree is the longest path from the root node to all the nodes.
