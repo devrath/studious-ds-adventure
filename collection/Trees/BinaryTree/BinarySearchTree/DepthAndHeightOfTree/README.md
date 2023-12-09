@@ -41,3 +41,4 @@
 ## `Maximum depth of a BST`
 #### `Definition`
 * Defining the height of the binary tree is the longest path from the root node to all the nodes.
+* Height of the binary tree above is 3
