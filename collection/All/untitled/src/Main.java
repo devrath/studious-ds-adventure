@@ -1,12 +1,13 @@
 import BinaryTrees.CustomTree;
 import arrays.fundamentals.CustomArray;
 import arrays.programs.*;
+import recursion.FactorialOfNumber;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        CustomTree tree = new CustomTree();
+       /* CustomTree tree = new CustomTree();
         tree.insert(100);
         tree.insert(75);
         tree.insert(150);
@@ -14,8 +15,9 @@ public class Main {
         tree.insert(85);
         tree.insert(125);
         tree.insert(175);
-        tree.allAncestorsOfValue(175);
+        tree.allAncestorsOfValue(175);*/
 
+        new FactorialOfNumber(-1);
 
     }
 
