@@ -27,3 +27,6 @@
 * Height of 20 ==> 3
 
 ## `Distinguishing depth and height`
+* As we traverse from the `root` node to the `leaf` node
+  *  The `depth` increases.
+  *  The `height` decreases.  
