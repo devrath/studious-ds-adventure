@@ -5,6 +5,7 @@
 | [Depth of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#depth-of-the-node) |
 | [Height of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#height-of-the-node) |
 | [Distinguishing depth and height](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#distinguishing-depth-and-height) |
+| [Logic to calculate the height of BST]() |
 
 </div>
 
@@ -29,4 +30,8 @@
 ## `Distinguishing depth and height`
 * As we traverse from the `root` node to the `leaf` node
   *  The `depth` increases.
-  *  The `height` decreases.  
+  *  The `height` decreases.
+ 
+## `Logic to calculate the height of BST`
+* **`Formulae`** = `1 + MAX(height-Of-Left-SubTee,height-Of-Right-SubTee)`
+* We apply `Post order traversal` technique to get the height of BST.
