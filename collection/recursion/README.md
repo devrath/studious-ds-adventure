@@ -2,9 +2,9 @@
 
 <div align="center">
 
-| **`𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`** |
+| **`Programs`** |
 | ---------- |
-| [Factorial of a number]() |
+| [Factorial of a number](https://github.com/devrath/studious-ds-adventure/blob/main/collection/recursion/FactorialOfNumber.java) |
 
 </div>
 
