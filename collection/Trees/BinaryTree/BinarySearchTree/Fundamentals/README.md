@@ -7,6 +7,7 @@
 |  MAX-VALUE | Finding the maximum value of the binary tree |
 |  TREE-SIZE | Finding the size of the binary tree |
 |  COUNT-LEAVES | Counting the number of leaves in tree |
-|  ANCESTOR | Implement a method to return the ancestors of a value in a List<Integer> |
+|  ANCESTOR | Implement a method to return the ancestor of a value in a List<Integer> |
+|  ANCESTORS | Implement a method to return all the ancestors of a value in a List<Integer> |
 
 </div>
