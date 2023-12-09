@@ -2,7 +2,7 @@
   
 | `Contents` |
 | ---------- |
-| [Depth of the tree]() |
+| [Depth of the tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#depth-of-the-tree) |
 | [Height of the tree]() |
 
 </div>
