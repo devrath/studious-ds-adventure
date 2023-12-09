@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        DepthAndHeightOfTree tree = new DepthAndHeightOfTree(10);
+        DepthAndHeightOfTree tree = new DepthAndHeightOfTree(20);
         tree.insert(20);
         tree.insert(10);
         tree.insert(30);
@@ -18,7 +18,7 @@ public class Main {
         tree.insert(4);
         tree.insert(3);
         tree.insert(8);
-        tree.calculateHeight();
+        tree.calculateDepth();
 
     }
 
