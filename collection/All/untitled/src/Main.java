@@ -14,7 +14,7 @@ public class Main {
         tree.insert(85);
         tree.insert(125);
         tree.insert(175);
-        tree.ancestorOfValue(10000000);
+        tree.allAncestorsOfValue(175);
 
 
     }

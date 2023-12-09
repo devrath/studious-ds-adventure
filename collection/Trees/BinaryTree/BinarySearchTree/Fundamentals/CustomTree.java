@@ -1,6 +1,9 @@
 package BinaryTrees;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * SUPPORTED OPERATIONS:
  * ---------------------
@@ -9,7 +12,8 @@ package BinaryTrees;
  * <3> MAX-VALUE    :-> Finding the maximum value of the binary tree </3>
  * <4> TREE-SIZE    :-> Finding the size of the binary tree </4>
  * <5> COUNT-LEAVES :-> Counting the number of leaves in tree </5>
- * <6> Ancestor     :-> Implement a method to return the ancestor of a value in a List<Integer></6>
+ * <6> Ancestor     :-> Implement a method to return the ancestor of a given value</6>
+ * <7> Ancestors    :-> Implement a method to return all the ancestors of a value in a List<Integer></7>
  */
 
 public class CustomTree {
@@ -145,7 +149,7 @@ public class CustomTree {
 
 
     /**
-     * Return the ancestors of a value
+     * Implement a method to return the ancestor of a given value
      */
     public void ancestorOfValue(int ipValue){
         // LOGIC:-> Keep a reference to parent node while traversing the tree until you find the element
@@ -176,6 +180,49 @@ public class CustomTree {
 
         if(isValueFound){
             System.out.println(parentNode);
+        }else{
+            System.out.println("Element not present in the tree");
+        }
+
+
+    }
+
+
+    /**
+     * Implement a method to return all the ancestors of a given value
+     */
+    public void allAncestorsOfValue(int ipValue){
+        // LOGIC:-> Keep a reference to parent node while traversing the tree until you find the element
+
+        boolean isValueFound = false;
+        List<Integer> ancestors = new ArrayList<>();
+
+        Node current = root;
+        Node parentNode = root;
+        while (current!=null){
+
+            if(ipValue<current.value){
+                // Traverse to left subtree
+                parentNode = current;
+                ancestors.add(current.value);
+                current = current.left;
+            }else if(ipValue>current.value){
+                // Traverse to right subtree
+                parentNode = current;
+                ancestors.add(current.value);
+                current = current.right;
+            }else {
+                // We found the element while traversing
+                if(ipValue==current.value){
+                    isValueFound = true;
+                    break;
+                }
+            }
+
+        }
+
+        if(isValueFound){
+            System.out.println(ancestors);
         }else{
             System.out.println("Element not present in the tree");
         }
