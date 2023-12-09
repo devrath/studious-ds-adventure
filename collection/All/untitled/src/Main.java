@@ -1,4 +1,5 @@
 import BinaryTrees.CustomTree;
+import BinaryTrees.TraversalsInBinarySearchTree;
 import arrays.fundamentals.CustomArray;
 import arrays.programs.*;
 import recursion.FactorialOfNumber;
@@ -7,17 +8,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-       /* CustomTree tree = new CustomTree();
-        tree.insert(100);
-        tree.insert(75);
-        tree.insert(150);
-        tree.insert(25);
-        tree.insert(85);
-        tree.insert(125);
-        tree.insert(175);
-        tree.allAncestorsOfValue(175);*/
-
-        new FactorialOfNumber(-1);
+        TraversalsInBinarySearchTree tree = new TraversalsInBinarySearchTree();
+        tree.insert(7);
+        tree.insert(4);
+        tree.insert(9);
+        tree.insert(1);
+        tree.insert(6);
+        tree.insert(8);
+        tree.insert(10);
+        tree.postOrderTraversal();
 
     }
 
