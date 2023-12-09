@@ -16,11 +16,11 @@
 ## `Depth of the node`
 #### `Definition`
 * Here the definition defines, the number of edges from the `root node` to the `node` under the reference.
-* Depth of 8  ==> 3
+* Depth of 8 ===> 3
 * Depth of 20 ==> 0
 
 ## `Height of the node`
 * Here we take the node under consideration and calculate the longest sub-tree meaning the largest number of edges from it to all of the subtrees and we take the largest value.
-* Height of 8  ==> 0
+* Height of 8 ===> 0
 * Height of 20 ==> 3
 
