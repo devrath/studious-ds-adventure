@@ -4,7 +4,7 @@
 | ---------- |
 | [Depth of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#depth-of-the-node) |
 | [Height of the node](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#height-of-the-node) |
-| [Distinguishing depth and height]() |
+| [Distinguishing depth and height](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/DepthAndHeightOfTree/README.md#distinguishing-depth-and-height) |
 
 </div>
 
