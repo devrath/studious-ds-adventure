@@ -29,9 +29,10 @@
 * Height of 20 ==> 3
 
 ## `Distinguishing depth and height`
-* As we traverse from the `root` node to the `leaf` node
-  *  The `depth` increases.
-  *  The `height` decreases.
+| `Depth` | `Height` |
+| ------- | -------- |
+| It is the number of edges from the node that we are calculating to the root node | It is the largest number of edges from the node under consideration to the leaf nodes |
+| The root node will have depth as 0 | The leaf node will have height of 0 |
  
 ## `Logic to calculate the height of BST`
 ![Untitled Diagram drawio](https://github.com/devrath/studious-ds-adventure/assets/1456191/8788d2a3-fe84-4e1f-9c06-405bcf2d29bf)
