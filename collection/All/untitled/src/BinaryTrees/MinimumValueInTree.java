@@ -6,39 +6,19 @@ public class MinimumValueInTree {
 
     public void calculateMinimumValue() {
         Node current = root;
-        int result = min(current);
+        int result = min(root);
         System.out.println("Result:->: "+result);
     }
 
     private int min(Node root) {
 
-        if(root==null){
-            return 0;
+        if(root.left==null && root.right==null){
+            // Breaking condition
+            return root.value;
         }
 
-        // Root Node
-        int res = root.value;
-        // Left Node
-        int leftNode = min(root.left);
-        // Right Node
-        int rightNode = min(root.right);
-
-
-        /**
-         * LOGIC: Assume root value is the largest value
-         *  (1) Compare root with left --> If left is larger value then store left in root
-         *  (2) Compare root with right --> If right is larger value then store right in root
-         */
-
-        if (leftNode > res){
-            res = leftNode;
-        }
-
-        if (rightNode > res){
-            res = rightNode;
-        }
-
-        return res;
+        // Keep iterating to left
+        return min(root.left);
     }
 
 
