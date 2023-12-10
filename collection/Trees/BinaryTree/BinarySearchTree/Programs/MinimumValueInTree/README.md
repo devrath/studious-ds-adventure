@@ -7,4 +7,4 @@
 * We repeat this recursively until we reach the `leaf node` to the `parent node` and the final minimum value is shown in the parent node.
 
 #### `Which traversal technique to use`
-We can use `POST - ORDER - TRAVERSAL`
+* We can use `POST - ORDER - TRAVERSAL`
