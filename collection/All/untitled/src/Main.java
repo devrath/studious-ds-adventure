@@ -1,5 +1,6 @@
 import BinaryTrees.CustomTree;
 import BinaryTrees.DepthAndHeightOfTree;
+import BinaryTrees.MinimumValueInTree;
 import BinaryTrees.TraversalsInBinarySearchTree;
 import arrays.fundamentals.CustomArray;
 import arrays.programs.*;
@@ -9,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        DepthAndHeightOfTree tree = new DepthAndHeightOfTree(20);
+        MinimumValueInTree tree = new MinimumValueInTree();
         tree.insert(20);
         tree.insert(10);
         tree.insert(30);
@@ -18,7 +19,7 @@ public class Main {
         tree.insert(4);
         tree.insert(3);
         tree.insert(8);
-        tree.calculateDepth();
+        tree.calculateMinimumValue();
 
     }
 
