@@ -1,24 +1,29 @@
 package BinaryTrees;
 
-public class MinimumValueInTree {
+public class EqualityChecking {
 
     private Node root = null;
 
-    public void calculateMinimumValue() {
-        Node current = root;
-        int result = min(root);
-        System.out.println("Result:->: "+result);
+
+    public void isEqual(EqualityChecking tree1,EqualityChecking tree2){
+
+        Node root1 = tree1.root;
+        Node root2 = tree2.root;
+
+        boolean result = recursivelyCheckEquality(root1,root2);
+        System.out.println("Result-> "+result);
     }
 
-    private int min(Node root) {
-
-        if(root.left==null && root.right==null){
-            // Breaking condition
-            return root.value;
+    private boolean recursivelyCheckEquality(Node root1, Node root2) {
+        // If the root nodes are themselves null
+        if((root1==null) && (root2==null)){
+            return true;
         }
 
-        // Keep iterating to left
-        return min(root.left);
+        // PRE-ORDER-TRAVERSAL: Root -> LEFT -> RIGHT
+        return  (root1.value==root2.value) &&
+                (recursivelyCheckEquality(root1.left,root2.left)) &&
+                (recursivelyCheckEquality(root1.right,root2.right));
     }
 
 
