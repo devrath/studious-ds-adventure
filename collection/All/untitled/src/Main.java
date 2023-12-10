@@ -7,26 +7,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EqualityChecking tree1 = new EqualityChecking();
-        tree1.insert(20);
-        tree1.insert(10);
-        tree1.insert(30);
-        tree1.insert(6);
-        tree1.insert(21);
-        tree1.insert(4);
-        tree1.insert(3);
-        tree1.insert(8);
-        EqualityChecking tree2 = new EqualityChecking();
-        tree2.insert(20);
-        tree2.insert(10);
-        tree2.insert(30);
-        tree2.insert(6);
-        tree2.insert(21);
-        tree2.insert(4);
-        tree2.insert(3);
-        tree2.insert(8);
-        EqualityChecking check = new EqualityChecking();
-        check.isEqual(tree1,tree2);
+        NodesAtKDistance node = new NodesAtKDistance();
+        node.insert(7);
+        node.insert(4);
+        node.insert(9);
+        node.insert(1);
+        node.insert(6);
+        node.insert(8);
+        node.insert(10);
+
+        node.printNodes(2);
 
     }
 
