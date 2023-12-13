@@ -1,4 +1,4 @@
-![github-header-image (1)](https://github.com/devrath/studious-ds-adventure/assets/1456191/b66e5691-755f-499e-9fab-fdc18ec78759)
+<h1 align="center">Bubble Sort</h1>
 
 ## `Complexities`
 
