@@ -1,5 +1,12 @@
 ![github-header-image (1)](https://github.com/devrath/studious-ds-adventure/assets/1456191/b66e5691-755f-499e-9fab-fdc18ec78759)
 
+## `Complexities`
+
+| 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
+| -------- | ------- |
+| O(n) | O(n2) |
+
+
 ## `Approach`
 * It is the simplest of sorting techniques.
 * We would be given an array of unsorted numbers, We need to sort them in ascending order.
