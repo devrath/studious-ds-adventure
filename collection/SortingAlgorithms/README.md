@@ -5,7 +5,7 @@
 
 | **`Programs`** |
 | ---------- |
-| [Bubble Sort](https://github.com/devrath/studious-ds-adventure/blob/main/collection/recursion/FactorialOfNumber.java) |
+| [Bubble Sort](https://github.com/devrath/studious-ds-adventure/tree/main/collection/SortingAlgorithms/BubbleSort) |
 
 </div>
 
