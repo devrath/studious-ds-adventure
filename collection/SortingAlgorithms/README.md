@@ -1,4 +1,4 @@
-![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/dab2858e-e677-4645-961c-e34c35ba8463)
+<h1 align="center">Sorting Algorithms</h1>
 
 <div align="center">
 
