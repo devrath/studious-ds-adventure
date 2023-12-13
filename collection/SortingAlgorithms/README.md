@@ -1,5 +1,4 @@
-![1_MwpoGB_jn_ImTZWKdhAyzg](https://github.com/devrath/studious-ds-adventure/assets/1456191/e3a314a0-372b-427f-921e-0a42dc7c1f55)
-
+![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/dab2858e-e677-4645-961c-e34c35ba8463)
 
 <div align="center">
 
