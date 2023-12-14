@@ -9,6 +9,4 @@
 ### `Steps`
 * Initially, we assume the entire array is un-sorted.
 * We shall place the `pointer-1` at first `0th` index position.
-* Now we iterate the entire array in the first iteration and keep track of the index of the largest element by comparing each element.
-  * At the end of each iteration, We swap the `pointer-1` with the smallest item.
-* We keep repeating until the `pointer-1` reaches the end of the array.
+* Now we use a second `for-loop` inside the parent `for-loop` and keep iterating it
