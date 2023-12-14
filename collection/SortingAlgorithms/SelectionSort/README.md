@@ -1,5 +1,11 @@
 <h1 align="center">Selection Sort</h1>
 
+## `Complexities`
+
+| 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
+| -------- | ------- |
+| O(n) | O(n2) |
+
 
 ## `Approach`
 * Like the bubble sort, We need multiple passes to sort the array.
@@ -14,3 +20,6 @@
 * At the end of each iteration of the inner for loop we perform the swapping.
 * We keep doing multiple iterations of the parent loop and multiple iterations of children's loops.
 * In the end the array would be sorted.
+
+### `On comparison with bubble sort`  
+* Here the time complexity is `O(n2)` but it's better than bubble sort because, at the end of each iteration, the `unsorted-array` size decreases.
