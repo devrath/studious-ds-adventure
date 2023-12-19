@@ -4,7 +4,7 @@
 
 | **`Programs`** |
 | ---------- |
-| [Linear Search]() |
+| [Linear Search](https://github.com/devrath/studious-ds-adventure/tree/main/collection/SearchingAlgotithms/LinearSearch) |
 | [Binary Search]() |
 
 </div>
