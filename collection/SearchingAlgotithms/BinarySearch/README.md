@@ -2,9 +2,17 @@
 
 ## `Complexities`
 
+
+### `Using iteration`
 | 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
 | -------- | ------- |
 |  O(1)    |   O(logn)  |
+
+## `Using Recursion`
+
+| 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
+| -------- | ------- |
+|  O(logn)    |   O(logn)  |
 
 
 ## `Preconditions for Binary search`
@@ -24,5 +32,3 @@
 * Based on the condition, We search either the left part of the array or the right part of the array.
 * We keep repeating it until our left pointer is greater than the right pointer.
 * If the element is not found, Then return the `-1` as a result.
-
-
