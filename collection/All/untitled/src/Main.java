@@ -1,4 +1,5 @@
 
+import searchingAlgorithms.BinarySearch;
 import searchingAlgorithms.LinearSearch;
 import sortingAlgorithms.BubbleSort;
 import sortingAlgorithms.InsertionSort;
@@ -8,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new LinearSearch();
+        new BinarySearch();
 
 
     }
