@@ -1,4 +1,4 @@
-<h1 align="center">Linear Search</h1>
+<h1 align="center">Binary Search</h1>
 
 ## `Complexities`
 
@@ -8,6 +8,3 @@
 
 
 ## `Approach`
-* We have an array, We iterate the array by checking if the element is present
-* If the element is found we return the index of the element
-* If the element is not found then we return `-1`
