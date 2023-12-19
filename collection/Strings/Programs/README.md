@@ -3,5 +3,5 @@
 
 * [Palindrome](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/Palindrome)
 * [Reversing String](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ReversingString)
-* [Valid Parenthesis ]()
-* [Balanced Expression]()
+* [Valid Parenthesis ](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ValidParenthesis)
+* [Balanced Expression](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/BalancedExpression)
