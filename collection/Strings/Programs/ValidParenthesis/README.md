@@ -1,5 +1,5 @@
 ## 📺 `Problem statement`
-Here we are given a string that contains only brackets as part of expression, We need to parse the parenthesis and let us know if it is valid.
+Here we are given a string that contains only brackets as part of the expression, We need to parse the parenthesis and let us know if it is valid.
 
 ## 📟 Output
 ```
