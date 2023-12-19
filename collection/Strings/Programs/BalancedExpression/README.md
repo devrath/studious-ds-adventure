@@ -1,9 +1,9 @@
 ## 📺 `Problem statement`
-Reversing the strings using the window sliding technique  
+Here we are given a string that contains only brackets with integers and operators, We need to parse the elements and find out its a balanced expression
 
 ## 🧭 `Ideal Complexity`
 * `TimeComplexity` - O(n)
-* `SpaceComplexity` - O(1)
+* `SpaceComplexity` - O(n)
 
 ## ⛰️ `Approach`
 * Using Stack -> Time efficient but not space efficient
@@ -11,6 +11,9 @@ Reversing the strings using the window sliding technique
 
 ## 📟 `Output`
 ```kotlin
-Initial String---> Hello
-Final String---> olleH
+Input ---> {2+3}
+Output ---> Valid
+----------------
+Input ---> {2+3
+Output ---> In-Valid
 ```
