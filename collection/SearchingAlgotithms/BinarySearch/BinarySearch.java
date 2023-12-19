@@ -3,12 +3,15 @@ package searchingAlgorithms;
 public class BinarySearch {
 
     int[] input = new int[]{1,2,3,4,8};
-    int searchValue = 1;
+    int searchValue = 8;
 
     public BinarySearch() {
-        iterativeSearch();
+        recursiveSearch();
     }
 
+    /**
+     * USING-ITERATION
+     */
     private void iterativeSearch() {
 
         int position = -1;
@@ -45,6 +48,46 @@ public class BinarySearch {
             System.out.println("Element found at position:->" + position);
         }
 
+    }
+
+    /**
+     * USING-RECURSION
+     */
+    private void recursiveSearch() {
+        int left = 0;
+        int right = input.length-1;
+        int position = -1;
+        // Apply recursion
+        int result = search(left,right,position);
+
+        if(result==-1){
+            System.out.println("Item not found");
+        }else{
+            System.out.println("Item found at position:-> "+result);
+        }
+    }
+
+    private int search(int left, int right, int position) {
+
+        // Breaking condition
+        if(left>right){
+            return position;
+        }
+
+        int mid = (left + right)/2;
+
+        if(searchValue == input[mid]){
+            // Item is found at the middle of the partition
+            return mid;
+        }
+
+        if(searchValue <= input[mid]){
+            // Search to left partition
+            return search(left,mid-1,position);
+        }else{
+            // Search to right partition
+            return search(mid+1,right,position);
+        }
     }
 
 
