@@ -6,8 +6,7 @@ Here we are given a string that contains only brackets with integers and operato
 * `SpaceComplexity` - O(n)
 
 ## ⛰️ `Approach`
-* Using Stack -> Time efficient but not space efficient
-* Using sliding window technique -> Time and space efficient (Efficient and best choice)
+The approach is the same as [valid parenthesis](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ValidParenthesis). Only this is we need to ignore the `operators` and `integers`.
 
 ## 📟 `Output`
 ```kotlin
