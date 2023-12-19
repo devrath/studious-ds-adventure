@@ -4,12 +4,10 @@
 
 | 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
 | -------- | ------- |
-|  | ) |
+|  O(1)    |   O(n)  |
 
 
 ## `Approach`
-
-
-### `Steps`
-
-  
+* We have an array, We iterate the array by checking if the element is present
+* If the element is found we return the index of the element
+* If the element is not found then we return `-1`
