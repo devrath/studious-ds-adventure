@@ -1,6 +1,4 @@
-![github-header-image](https://github.com/devrath/studious-ds-adventure/assets/1456191/bcfff7b9-6e0e-4d1e-a9b7-1e6145eb7403)
-
-
+![Strings](https://github.com/devrath/studious-ds-adventure/assets/1456191/73901b5a-c277-474a-b94e-27d9babb9ec6)
 
 <div align="center">
   
