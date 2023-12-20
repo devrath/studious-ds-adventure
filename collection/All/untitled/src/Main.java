@@ -1,6 +1,5 @@
 
-import arrays.programs.medium.LongestSubStringWithoutRepeatingCharacters;
-import strings.Palindrome;
+import strings.LongestSubStringWithoutRepeatingCharacters;
 
 public class Main {
 
