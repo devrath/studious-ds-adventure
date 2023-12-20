@@ -1,16 +1,18 @@
 ## 📺 `Problem statement`
-Reversing the strings using the window sliding technique  
+Here we are given a string that contains only brackets with integers and operators, We need to parse the elements and find out its a balanced expression
 
 ## 🧭 `Ideal Complexity`
 * `TimeComplexity` - O(n)
-* `SpaceComplexity` - O(1)
+* `SpaceComplexity` - O(n)
 
 ## ⛰️ `Approach`
-* Using Stack -> Time efficient but not space efficient
-* Using sliding window technique -> Time and space efficient (Efficient and best choice)
+The approach is the same as [valid parenthesis](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ValidParenthesis). Only this is we need to ignore the `operators` and `integers`.
 
 ## 📟 `Output`
 ```kotlin
-Initial String---> Hello
-Final String---> olleH
+Input ---> {2+3}
+Output ---> Valid
+----------------
+Input ---> {2+3
+Output ---> In-Valid
 ```
