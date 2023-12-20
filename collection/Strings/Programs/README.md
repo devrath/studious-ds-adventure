@@ -8,4 +8,4 @@
 
 
 #### `Difficulty Level` - `MEDIUM`
-*[Longest Substring Without Repeating Characters](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/LongestSubStringWithoutRepeatingCharacters)
+* [Longest Substring Without Repeating Characters](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/LongestSubStringWithoutRepeatingCharacters)
