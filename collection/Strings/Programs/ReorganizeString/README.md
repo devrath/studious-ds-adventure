@@ -1,8 +1,9 @@
-## 📺  `Longest substring without repeating characters`
+## 📺  `Reorganize String`
 
 ### 🧿 `Problem`
-* Given a string `s`, find the length of the longest substring without repeating characters.
-* `s` consists of English letters, digits, symbols, and spaces.
+* Given a string `s`, rearrange the characters of `s` so that any two adjacent characters are not the same.
+* Return any possible rearrangement of `s` or return `""` if not possible.
+* `s` consists of lowercase English letters.
 
 
 ### :electron: `Algorithm`
@@ -11,20 +12,11 @@
 ### 🧪 `TestCases`
 **Example 1:**
 ```kotlin
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3.
+Input: s = "aab"
+Output: "aba"
 ```
 **Example 2:**
 ```kotlin
-Input: s = "bbbbb"
-Output: 1
-Explanation: The answer is "b", with the length of 1.
-```
-**Example 3:**
-```kotlin
-Input: s = "pwwkew"
-Output: 3
-Explanation: The answer is "wke", with the length of 3.
-Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+Input: s = "aaab"
+Output: ""
 ```
