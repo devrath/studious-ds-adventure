@@ -1,4 +1,4 @@
-package arrays.programs;
+package arrays.programs.easy;
 
 public class SingleNumber {
 
