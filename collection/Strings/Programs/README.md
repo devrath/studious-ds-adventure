@@ -5,3 +5,7 @@
 * [Reversing String](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ReversingString)
 * [Valid Parenthesis ](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ValidParenthesis)
 * [Balanced Expression](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/BalancedExpression)
+
+
+#### `Difficulty Level` - `MEDIUM`
+*[Longest Substring Without Repeating Characters](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/LongestSubStringWithoutRepeatingCharacters)
