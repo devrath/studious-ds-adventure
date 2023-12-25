@@ -11,8 +11,7 @@ Given n pairs of parentheses, write a function to generate all combinations of w
 * Start with an open bracket
 * Open bracket until `n < 2`
 * Close bracket until `Closed < Open`
-
-
+* We shall use recursion
 
 ### 🧪 `TestCases`
 **Example 1:**
