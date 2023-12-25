@@ -10,4 +10,6 @@
 #### `Difficulty Level` - `MEDIUM`
 * [Longest Substring Without Repeating Characters](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/LongestSubStringWithoutRepeatingCharacters)
 * [Reorganize String](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/ReorganizeString)
+* [Generate parenthesis](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/GenerateParenthesis)
 * [Group Anagrams](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Strings/Programs/Group%20Anagrams)
+  
