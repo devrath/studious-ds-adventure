@@ -1,26 +1,25 @@
 ## 📺  `Generate Parenthesis`
 
 ### 🧿 `Problem`
-Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+* Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+* An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 ### :electron: `Algorithm`
-![Untitled Diagram drawio](https://github.com/devrath/studious-ds-adventure/assets/1456191/509e981a-eeab-44aa-800e-387363be9e71)
 
-#### `Rules`
-* When `n = 2`
-* Start with an open bracket
-* Open bracket until `n < 2`
-* Close bracket until `Closed < Open`
-* We shall use recursion
 
 ### 🧪 `TestCases`
 **Example 1:**
 ```kotlin
-Input: n = 3
-Output: ["((()))","(()())","(())()","()(())","()()()"]
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 ```
 **Example 2:**
 ```kotlin
-Input: n = 1
-Output: ["()"]
+Input: strs = [""]
+Output: [[""]]
+```
+**Example 3:**
+```kotlin
+Input: strs = ["a"]
+Output: [["a"]]
 ```
