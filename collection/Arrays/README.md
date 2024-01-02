@@ -6,7 +6,7 @@
 | `Contents` |
 | ---------- |
 | [Concepts](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Arrays/README.md#concepts) |
-| [Fundamentals]() |
+| [Fundamentals](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Fundamentals) |
 | [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs) |
 
 </div>
