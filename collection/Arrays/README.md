@@ -1,7 +1,11 @@
-![github-header-image (2)](https://github.com/devrath/studious-ds-adventure/assets/1456191/63bd8e8f-1f7d-4148-aefd-5230ab4605df)
+<div align="center">
 
+![Arrays](https://github.com/devrath/studious-ds-adventure/assets/1456191/c990423d-2cd0-49ea-9014-3c8d495dca29)
+
+</div>
 
 <div align="center">
+
   
 | `Contents` |
 | ---------- |
