@@ -1,7 +1,9 @@
 ## 📺  `Search In Rotated Sorted Array`
 
 ### 🧿 `Problem`
-
+* You are given a sorted array with distinct values.
+* It has been rotated by an unknown number of times.
+* Return the index of the target value if it is present else return -1.
 
 ### :electron: `Algorithm`
 
