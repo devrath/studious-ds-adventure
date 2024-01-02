@@ -12,3 +12,4 @@
  * [Single Number](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/SingleNumber)
 
 #### `Difficulty Level` - `MEDIUM`
+ * [Next Permutation](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs/NextPermutation) 
