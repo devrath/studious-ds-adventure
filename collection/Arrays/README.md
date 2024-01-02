@@ -7,7 +7,7 @@
 | ---------- |
 | [Concepts]() |
 | [Fundamentals]() |
-| [Programs]() |
+| [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Arrays/Programs) |
 
 </div>
 
