@@ -1,27 +1,35 @@
-## 📺  `Move Zeros`
+## 📺  `Next Permutation`
 
 ### 🧿 `Problem`
-* Given an integer array nums, move all 0's to the end
-* Maintain the relative order of the non-zero elements.
-* Must do this in place without making a copy of the array.
+A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
+
+For example, for arr = [1,2,3], the following are all the permutations of arr: [1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1].
+The next permutation of an array of integers is the next lexicographically greater permutation of its integer. More formally, if all the permutations of the array are sorted in one container according to their lexicographical order, then the next permutation of that array is the permutation that follows it in the sorted container. If such an arrangement is not possible, the array must be rearranged in the lowest possible order (i.e., sorted in ascending order).
+
+For example, the next permutation of arr = [1,2,3] is [1,3,2].
+Similarly, the next permutation of arr = [2,3,1] is [3,1,2].
+While the next permutation of arr = [3,2,1] is [1,2,3] because [3,2,1] does not have a lexicographical larger rearrangement.
+Given an array of integers nums, find the next permutation of nums.
+
+The replacement must be in place and use only constant extra memory.
 
 ### :electron: `Algorithm`
-* We shall use two pointers 
-* Tracking pointer:-> To navigate the entire array in one traversal
-* Counter pointer:-> To keep track of the position till which contains elements with no zeros
-* Traverse the entire array and copy the elements one one to the left on the counter pointer
-* Now at this position, all the elements are moved to the left maintaining the relative ordering
-* Fill the remaining positions with zero since we had track of the counter pointer
+
 
 ### 🧪 `TestCases`
 
 **Example 1:**
 ```kotlin
-Input: nums = [0,1,0,3,12]
-Output: [1,3,12,0,0]
+Input: nums = [1,2,3]
+Output: [1,3,2]
 ```
 **Example 2:**
 ```kotlin
-Input: nums = [0]
-Output: [0]
+Input: nums = [3,2,1]
+Output: [1,2,3]
+```
+**Example 3:**
+```kotlin
+Input: nums = [1,1,5]
+Output: [1,5,1]
 ```
