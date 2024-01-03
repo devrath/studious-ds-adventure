@@ -1,27 +1,25 @@
-## 📺  `Move Zeros`
+## 📺  `Find the First and Last Position of the Element in the Sorted Array`
 
 ### 🧿 `Problem`
-* Given an integer array nums, move all 0's to the end
-* Maintain the relative order of the non-zero elements.
-* Must do this in place without making a copy of the array.
+
 
 ### :electron: `Algorithm`
-* We shall use two pointers 
-* Tracking pointer:-> To navigate the entire array in one traversal
-* Counter pointer:-> To keep track of the position till which contains elements with no zeros
-* Traverse the entire array and copy the elements one one to the left on the counter pointer
-* Now at this position, all the elements are moved to the left maintaining the relative ordering
-* Fill the remaining positions with zero since we had track of the counter pointer
+
 
 ### 🧪 `TestCases`
 
 **Example 1:**
 ```kotlin
-Input: nums = [0,1,0,3,12]
-Output: [1,3,12,0,0]
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
 ```
 **Example 2:**
 ```kotlin
-Input: nums = [0]
-Output: [0]
+Input: nums = [5,7,7,8,8,10], target = 6
+Output: [-1,-1]
+```
+**Example 3:**
+```kotlin
+Input: nums = [], target = 0
+Output: [-1,-1]
 ```
