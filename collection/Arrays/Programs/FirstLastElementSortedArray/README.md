@@ -1,7 +1,8 @@
 ## 📺  `Find the First and Last Position of the Element in the Sorted Array`
 
 ### 🧿 `Problem`
-
+* Given a target number, Find the `index` of the first and last occurrence of the target number in the array.
+* If the target value is not present, return -1
 
 ### :electron: `Algorithm`
 
