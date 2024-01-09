@@ -5,6 +5,9 @@
 * If the target value is not present, return -1
 
 ### :electron: `Algorithm`
+* See one thing to note here is that the array is sorted.
+* Since the array is sorted, the Element on the left of the `target` element will be smaller and the element in the right of the `target` element will be larger.
+* We can apply a binary search for this.
 
 
 ### 🧪 `TestCases`
