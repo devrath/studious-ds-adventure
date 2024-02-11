@@ -1,4 +1,5 @@
 
+import arrays.programs.medium.FirstLastPositionSortedArray;
 import arrays.programs.medium.SearchInRotatedSortedArray;
 import strings.GenerateParenthesis;
 import strings.GroupAnagrams;
@@ -8,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new SearchInRotatedSortedArray();
+        new FirstLastPositionSortedArray();
 
 
     }
