@@ -31,4 +31,4 @@
 In a `normal tree`, A node can have `n-children` but in a `binary tree` a node can have a maximum of two children, also no children, just one child.
 
 ## `Types of Binary tree`
-* [Binary Search Tree](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree)
+* [Binary Search Tree](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree)
