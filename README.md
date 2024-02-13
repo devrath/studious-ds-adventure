@@ -4,6 +4,12 @@
 
 <h2 align="center">𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚝𝚑𝚎 𝚏𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜 𝚘𝚏 𝚍𝚊𝚝𝚊 𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚜</h2>
 
+## `Concepts`
+* [What is Hashing](https://github.com/devrath/studious-ds-adventure/wiki/Hashing)
+* [What is HashTable](https://github.com/devrath/studious-ds-adventure/wiki/Hash-Tables)
+* [Difference between Hashmap and HashTable](https://github.com/devrath/studious-ds-adventure/wiki/Difference-between-Hash%E2%80%90map-and-HashTable)
+
+
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
 𝙸𝚏 𝚢𝚘𝚞 𝚏𝚎𝚎𝚕 𝚕𝚒𝚔𝚎 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚖𝚎 𝚊 𝚌𝚘𝚏𝚏𝚎𝚎 𝚏𝚘𝚛 𝚖𝚢 𝚎𝚏𝚏𝚘𝚛𝚝𝚜, 𝙸 𝚠𝚘𝚞𝚕𝚍 𝚐𝚛𝚎𝚊𝚝𝚕𝚢 𝚊𝚙𝚙𝚛𝚎𝚌𝚒𝚊𝚝𝚎 𝚒𝚝.</br>
