@@ -141,6 +141,43 @@ class CustomTree {
         return noOfLeaves
     }
 
+    // OPERATION: Ancestor of a given value
+    fun getAncestor(value : Int) : Int {
+
+        var current = root
+
+        if(itemCount==0){
+            return -1
+        }else{
+            // Keep the parent as root
+            var parent = root
+
+            while(current!=null){
+
+                if(value==current.info){
+                    break;
+                }else{
+                    if(value<current.info){
+                        // Update the parent reference
+                        parent = current
+                        current = current.lTree
+                    }else{
+                        // Update the parent reference
+                        parent = current
+                        current = current.rTree
+                    }
+                }
+
+            }
+
+            return parent?.info?: -1
+        }
+
+    }
+
+
+
+
     private fun recursivelyCalculateLeaves(current: Node, noOfLeaves: Int): Int {
 
         var _noOfLeaves = noOfLeaves
@@ -164,6 +201,5 @@ class CustomTree {
 
         return _noOfLeaves
     }
-
 
 }
