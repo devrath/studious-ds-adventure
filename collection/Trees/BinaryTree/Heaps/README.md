@@ -3,7 +3,7 @@
 | `Contents` |
 | ---------- |
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
-| [Applicaitons of heap]() |
+| [Applicaitons of heap](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#applicaitons-of-heap) |
 
 </div>
 
@@ -50,6 +50,9 @@
 </div>
 
 # `Applicaitons of heap`
-
+* Sorting --------------> Heap sort
+* Graph Algorithms -----> Shortest path
+* Priority Queues
+* Finding kth smallest/largest value
 
     
