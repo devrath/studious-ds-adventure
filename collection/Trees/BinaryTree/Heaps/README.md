@@ -4,6 +4,7 @@
 | ---------- |
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
 | [Applicaitons of heap](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#applicaitons-of-heap) |
+| [Insertion operation]() |
 
 </div>
 
@@ -55,4 +56,8 @@
 * Priority Queues
 * Finding kth smallest/largest value
 
-    
+# `Insertion operation`
+*  `Time complexity - O(logn)`
+*  Input - [10,5,17,4,22]
+![dd](https://github.com/devrath/studious-ds-adventure/assets/1456191/a6d2381c-ef3f-4fb2-acaf-6c47e5133bf5)
+
