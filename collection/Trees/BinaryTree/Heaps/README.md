@@ -1,3 +1,5 @@
+<div align="center">
+
 | `Contents` |
 | ---------- |
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
