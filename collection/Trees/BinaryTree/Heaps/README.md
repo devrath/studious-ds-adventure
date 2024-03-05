@@ -3,11 +3,12 @@
 | `Contents` |
 | ---------- |
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
+| [Applicaitons of heap]() |
 
 </div>
 
 
-## `What are heaps`
+# `What are heaps`
 
 <div align="center">
   
@@ -48,6 +49,7 @@
 
 </div>
 
+# `Applicaitons of heap`
 
 
     
