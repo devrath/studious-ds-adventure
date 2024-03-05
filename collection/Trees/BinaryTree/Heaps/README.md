@@ -5,3 +5,6 @@
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/wiki/What-are-heaps) |
 
 </div>
+
+
+## `What are heaps`
