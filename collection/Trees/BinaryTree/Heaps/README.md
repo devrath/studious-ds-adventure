@@ -5,7 +5,7 @@
 | [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
 | [Applicaitons of heap](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#applicaitons-of-heap) |
 | [Insertion operation](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/Heaps#insertion-operation) |
-| [Deletion operation]() |
+| [Deletion operation](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#deletion-operation) |
 
 </div>
 
@@ -60,6 +60,12 @@
 # `Insertion operation`
 *  `Time complexity - O(logn)`
 *  Input - `[10,5,17,4,22]`
+*  We perform bubbling up 
 ![dd](https://github.com/devrath/studious-ds-adventure/assets/1456191/a6d2381c-ef3f-4fb2-acaf-6c47e5133bf5)
 
 # `Deletion operation`
+*  `Time complexity - O(logn)`
+*  We tried to remove 22
+*  We do bubbling down here
+![test](https://github.com/devrath/studious-ds-adventure/assets/1456191/226a95aa-9551-4efe-a24b-4d93e6d625e7)
+
