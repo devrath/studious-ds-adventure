@@ -22,7 +22,7 @@
     * Every level except the last level must be full of nodes.
     * Also the elements are filled from left to right.
   * If the heap needs to satisfy the heap property.
-    * If we pick any node, All its children must be less than the node under consideration. 
+    * If we pick any node, All its children must be less than or equal to the node under consideration. 
  
   
 ## `Complete trees Examples`
