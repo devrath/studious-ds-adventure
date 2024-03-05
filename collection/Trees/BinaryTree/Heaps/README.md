@@ -58,6 +58,6 @@
 
 # `Insertion operation`
 *  `Time complexity - O(logn)`
-*  Input - [10,5,17,4,22]
+*  Input - `[10,5,17,4,22]`
 ![dd](https://github.com/devrath/studious-ds-adventure/assets/1456191/a6d2381c-ef3f-4fb2-acaf-6c47e5133bf5)
 
