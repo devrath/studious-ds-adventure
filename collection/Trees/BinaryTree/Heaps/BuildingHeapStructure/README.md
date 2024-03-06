@@ -2,7 +2,8 @@
   
 | `Contents` |
 | ---------- |
-| [Building a heap]() |
+| [`Building a heap`]() |
+
 </div>
 
 # `Building a heap`
