@@ -15,13 +15,13 @@
 
 </div>
 
-###`Calculate the index of children
+### `Calculate the index of children
 ```kotlin
 left  =  parentIndex * 2 + 1
 right =  parentIndex * 2 + 2
 ```
 
-###`Calculate the index of a parent`
+### `Calculate the index of a parent`
 ```kotlin
 parent = (index-1)/2
 ```
