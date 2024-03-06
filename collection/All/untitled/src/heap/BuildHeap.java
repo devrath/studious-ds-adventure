@@ -30,6 +30,46 @@ public class BuildHeap {
 
     }
 
+    public void remove(){
+        // Logic:
+        // 1> We remove the root node.
+        // 2> Move the last node to root node.
+        // 3> We apply bubble down operation so that the largest node remains at the top.
+
+
+
+        // 1> We remove the root node.
+        // 2> Move the last node to root node.
+        collection[0] = collection[size-1];//-> We combined the steps 1 and 2
+        size--;
+
+
+        // If item(root) < children ==> BubbleDown
+        int temp = 0;
+        while (temp<=size && areParentsLesser(temp)){
+            // Swap with the larger child
+            int leftChildValue = collection[getChildIndex(temp,true)];
+            int rightChildValue = collection[getChildIndex(temp,false)];
+            if(leftChildValue>rightChildValue){
+                // Left is greater ----> So Exchange parent with leftItem
+                swapValues(temp,getChildIndex(temp,true));
+            }else{
+                // Right is greater ----> So Exchange parent with rightItem
+                swapValues(temp,getChildIndex(temp,false));
+            }
+        }
+
+    }
+
+    public boolean areParentsLesser(int parent){
+        int parentValue = collection[parent];
+        int leftChildValue = collection[getChildIndex(parent,true)];
+        int rightChildValue = collection[getChildIndex(parent,false)];
+
+        return parent < leftChildValue && parent < rightChildValue;
+    }
+
+
     private void swapValues(int indexOfInsertedItem, int indexOfParent) {
         int temp = collection[indexOfInsertedItem];
         collection[indexOfInsertedItem] = collection[indexOfParent];

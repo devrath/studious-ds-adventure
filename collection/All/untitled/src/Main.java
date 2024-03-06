@@ -18,6 +18,7 @@ public class Main {
         heapObj.insert(17);
         heapObj.insert(4);
         heapObj.insert(22);
+        heapObj.remove();
         heapObj.printOutput();
 
     }
