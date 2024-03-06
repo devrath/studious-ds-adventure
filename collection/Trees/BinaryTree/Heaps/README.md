@@ -1,99 +1,71 @@
-<div align="center">
-  
+![test](https://github.com/devrath/studious-ds-adventure/assets/1456191/06cc5207-49ee-4d76-a3ea-1ac71215bee9)<div align="center">
+
 | `Contents` |
 | ---------- |
-| [What is binary search tree(BST)](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#what-is-binary-search-treebst) |
-| [What is the difference between a binary tree and a binary-search-tree](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#what-is-the-difference-between-a-binary-tree-and-a-binary-search-tree) |
-| [Time complexity](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#%EF%B8%8F-time-complexity) |
-| [Fundamental Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree/Fundamentals) |
-| [Tree Traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#tree-traversals) |
-| [Programs](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/BinarySearchTree/Programs) |
+| [What are heaps](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#what-are-heaps) |
+| [Applicaitons of heap](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#applicaitons-of-heap) |
+| [Insertion operation](https://github.com/devrath/studious-ds-adventure/tree/main/collection/Trees/BinaryTree/Heaps#insertion-operation) |
+| [Deletion operation](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/Heaps/README.md#deletion-operation) |
 
 </div>
 
 
-## `What is binary search tree(BST)`
+# `What are heaps`
 
 <div align="center">
   
-![bst-1](https://github.com/devrath/studious-ds-adventure/assets/1456191/2aeab9ec-b11d-43f7-8ea6-c0ee55834d80)
+![heap](https://github.com/devrath/studious-ds-adventure/assets/1456191/2d199273-83ec-4229-b4fc-6462ad6efcf1)
 
 </div>
 
-* A tree is called a binary search tree if it is fundamentally a binary tree meaning it has 2 children only.
-* All the elements in the left sub-tree are lesser than the node under consideration.
-* Subsequently all the elements in the right sub-tree are greater than the node under consideration.
-* The left and right sub-tree must also be a binary search tree.
-* The entire tree must not contain any duplicate nodes.
-
-## `What is the difference between a binary tree and a binary-search-tree`
-
-| `Binary tree` | `Binary Search Treee` |
-| ------------- | --------------------- |
-| ![bst](https://github.com/devrath/studious-ds-adventure/assets/1456191/cb132f95-0031-4a49-9bea-0b1d9bf6a50b) | ![bst-1](https://github.com/devrath/studious-ds-adventure/assets/1456191/2aeab9ec-b11d-43f7-8ea6-c0ee55834d80) | 
-
-* `Duplicates`
-  *  Binary Tree -> Contains duplicates.
-  *  Binary search tree -> Does not contain duplicates.
-* `Time complexity`
-  * Binary Tree -> Its slower around order `O(n)`
-  * Binary search tree -> It is faster since its ordered and of `O(nlogn)`
+* A tree is called a heap if it's complete & Satisfies the heap property.
+  * If it has to be complete, Then it should satisfy the below conditions.
+    * If all the nodes are filled apart from the leaves.
+    * Every level except the last level must be full of nodes.
+    * Also the elements are filled from left to right.
+  * If the heap needs to satisfy the heap property.
+    * If we pick any node, All its children must be less than or equal to the node under consideration. 
  
-## ⏲️ `Time complexity`  
-| `Operation` | `Complexity` |
-| ----------- | ------------ |
-| Insert | O(logn) |
-| Deletion | O(logn) |
-| Lookup | O(logn) |
-
-## `Tree traversals`
-
+  
+## `Complete trees Examples`
 <div align="center">
   
-| `Contents` |
-| ---------- |
-| [About traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#about-traversals) |
-| [Categories of traversals](https://github.com/devrath/studious-ds-adventure/blob/main/collection/Trees/BinaryTree/BinarySearchTree/README.md#categories-of-traversals) |
-| [Sample traversal using depth-first traversals]() |
+![heap](https://github.com/devrath/studious-ds-adventure/assets/1456191/e2b65626-1e7d-4ff5-9151-271d3d29b74b)
+![heap1](https://github.com/devrath/studious-ds-adventure/assets/1456191/1a2f8bd9-53df-4f28-9f9c-3223c57a2239)
 
 </div>
 
-
-## `About traversals`
-* In linear data structures, there is just one possibility, We start at the beginning and traverse in such a way until we reach the end of the data structure.
-* But in the non-linear data-structure trees, we start at one node and we have 2 possibilities, either go left or go right and this repeats until we reach the leaf nodes.
-
-## `Categories of traversals`
-* Breadth First Traversal:
-* Depth First Traversal:
-  
-### Breadth First Traversal:
-* Here we visit all the nodes in one level before visiting the nodes at another level.
-* This is called level order traversal.
-
-### Depth First Traversal:   
-The depth-first traversals are divided into 3 types
-* Pre-Order traversal ---------> `Root-Left-Right`
-* In-Order traversal ----------> `Left-Root-Right`
-* Post-Order traversal --------> `Left-Right-Root`
-
-## `Sample traversal using depth-first traversals`  
+## `Non-Complete Trees Examples`
 <div align="center">
-  
-![levelOrder](https://github.com/devrath/studious-ds-adventure/assets/1456191/0ec9f489-8128-4251-8b31-638280ef9ae6)
 
-| `Traversal Type` | `Data`                     |
-| ---------------- | -------------------------- |
-| Level order traversal | ` [7,4,9,1,6,8,10] ` |
-| Pre-Order traversal  | ` [7,4,1,6,9,8,10] `   |
-| In-Order traversal   | ` [1,4,6,7,8,9,10] `   |
-| Post-Order traversal | ` [1,6,4,8,10,9,7] `   |
-
-![3](https://github.com/devrath/studious-ds-adventure/assets/1456191/122077d0-a4aa-4f6f-a3c0-1cfc1de9f4c1)
-| `Traversal Type` | `Data`                              |
-| ---------------- | ----------------------------------- |
-| Pre-Order traversal  | ` [20,10,6,3,8,14,30,24,26] `   |
-| In-Order traversal   | ` [3,6,8,10,14,20,24,26,30] `   |
-| Post-Order traversal | ` [3,8,6,14,10,26,24,30,20] `   |
+![heap2](https://github.com/devrath/studious-ds-adventure/assets/1456191/41af9d3b-0552-42c8-b954-172304aab6f9)
+![heap3](https://github.com/devrath/studious-ds-adventure/assets/1456191/6e05e5be-f325-43bd-a88c-d1e12023958a)
 
 </div>
+
+## `Tree that satisfies heap property`
+
+<div align="center">
+
+![dd](https://github.com/devrath/studious-ds-adventure/assets/1456191/c72df89f-ea11-4f47-a787-fc2cf1d099b8)
+
+</div>
+
+# `Applicaitons of heap`
+* Sorting --------------> Heap sort
+* Graph Algorithms -----> Shortest path
+* Priority Queues
+* Finding kth smallest/largest value
+
+# `Insertion operation`
+*  `Time complexity - O(logn)`
+*  Input - `[10,5,17,4,22]`
+*  We perform bubbling up 
+![dd](https://github.com/devrath/studious-ds-adventure/assets/1456191/a6d2381c-ef3f-4fb2-acaf-6c47e5133bf5)
+
+# `Deletion operation`
+*  `Time complexity - O(logn)`
+*  We tried to remove 22
+*  We do bubbling down here
+![test](https://github.com/devrath/studious-ds-adventure/assets/1456191/226a95aa-9551-4efe-a24b-4d93e6d625e7)
+
