@@ -15,7 +15,7 @@
 
 </div>
 
-### `Calculate the index of children
+### `Calculate the index of children`
 ```kotlin
 left  =  parentIndex * 2 + 1
 right =  parentIndex * 2 + 2
