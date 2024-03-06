@@ -11,7 +11,7 @@
 
 <div align="center">
 
-![added](https://github.com/devrath/studious-ds-adventure/assets/1456191/cb113271-be38-4929-98da-d9f6d1223671)
+![dev](https://github.com/devrath/studious-ds-adventure/assets/1456191/41fbbb47-8fa5-4415-93e6-8f08e513c7a8)
 
 </div>
 
