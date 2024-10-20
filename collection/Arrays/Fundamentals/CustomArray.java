@@ -1,130 +1,132 @@
-package arrays;
-
-/**
- * OPERATIONS SUPPORTED:->
- * <1> Inserting a new item</1>
- * <2> Removing item at particular position in array</2>
- * <3> Removing element from end</3>
- * <4> Index of an item</4>
- */
-
 public class CustomArray {
 
-    private int[] data;
-
-    private int maxSize = 0;
     private int currentPosition = 0;
+    private int[] arrayCollection;
 
-    public CustomArray(int size){
-        // Position starts from first element index
-        currentPosition = 0;
-        // Set the size of the array with the element size passed
-        this.maxSize = size;
-        // Initialize the array
-        data = new int[maxSize];
+    CustomArray(int arraySize){
+        arrayCollection = new int[arraySize];
     }
 
-    /** ******************************** OPERATIONS ******************************** **/
     /**
-     * OPERATION:-> Inserting a new item
+     * OPERATION: Getting the total size of array
+     * @return int
      */
-    public void insert(int item){
-        if(maxSize>=currentPosition){
-            // We are either at the beginning with no elements added or at end where array is filled
-            resizeArray();
-            // Add new element
-            addNewElement(item);
-        }else{
-            // Add new element - > Since space is available
-            addNewElement(item);
+    public int getArraySize() {
+        return arrayCollection.length;
+    }
+
+
+    /**
+     * OPERATION: Print the elements in array
+     */
+    public void displayElements() {
+        System.out.println("<====================================>");
+        if(currentPosition==0){
+            System.out.println("No elements are currently inserted");
         }
-    }
-
-    /**
-     * OPERATION:-> Removing element at a particular position
-     */
-    public void removeAtPosition(int positionToRemove){
-        if((positionToRemove<0)||(positionToRemove>=maxSize)){
-            System.out.println("The position is invalid to be deleted");
-        }else{
-            if(positionToRemove==(maxSize-1)){
-                // Last element
-                removeElementFromEnd();
-            }else{
-                // It is not the last element to be deleted
-                for (int i=positionToRemove ; i<(maxSize-1) ; i++){
-                    data[i] = data[i+1];
-                    maxSize--;
-                    currentPosition--;
-                }
+        System.out.print("Elements are --> ");
+        for (int i=0; i<currentPosition ; i++){
+            System.out.print(arrayCollection[i]); // Print element
+            if(i<currentPosition-1){
+                System.out.print("-"); // Print add dash in the last position
             }
         }
+        System.out.print("\n");
+        System.out.println("<====================================>");
     }
 
+
     /**
-     * OPERATION:-> Removing element from the end
+     * OPERATION: Insert the element into the array
+     * @param value
      */
-    public void removeElementFromEnd() {
-        if(currentPosition>=0){
-            // There are elements present to delete
-            currentPosition--;
-            maxSize--;
+    public void insert(int value) {
+
+        // Check for the empty array
+        if(getArraySize()==0){
+            throw new IllegalStateException("Size of the array is zero");
         }
+
+        // Check if the array is full
+        if(getArraySize()==currentPosition){
+            resizingOperation(); // we need to resize
+        }
+
+        arrayCollection[currentPosition] = value; // Add the new value
+        currentPosition++; // Increment the position
     }
 
     /**
-     * OPERATION:-> Index of a given item
+     * OPERATION: Deleting the element from an array based on value
      */
-    public void indexOfAnItem(int item){
-        int position = -1;
-        for (int i=0 ; i<(maxSize-1) ; i++){
-            if(data[i]==item){
-                position=i;
+    public void deleteByValue(int value) {
+        // Check if the array is empty
+        if(getArraySize()==0){
+            throw new IllegalStateException("Not elements are present in array to delete");
+        }
+
+        // Check if the value is prent in array to be deleted
+        boolean isElementFound = false;
+        int tempPosition = 0;
+        for(int i=0; i<getArraySize(); i++){
+            // We reached to end of the array & still didn't find the element
+            if(tempPosition == getArraySize()){
                 break;
             }
-        }
-        if(position==-1){
-            System.out.println("Item not found");
-        }else{
-            System.out.println("Item found at position:->"+position);
-        }
-    }
-    /** ******************************** OPERATIONS ******************************** **/
-
-
-
-
-    private void addNewElement(int item) {
-        data[currentPosition] = item;
-        currentPosition++;
-    }
-
-    private void resizeArray() {
-        int newMaxSize = maxSize+1;
-        int[] newData = new int[newMaxSize];
-        // Add all the elements from old array to new Array
-        for (int i=0;i<maxSize;i++) {
-            newData[i] = data[i];
-        }
-        // Update the new size
-        maxSize = newMaxSize;
-        // Update the new data
-        data = newData;
-    }
-
-
-    @Override
-    public String toString() {
-        StringBuilder strBuff = new StringBuilder();
-        strBuff.append("[");
-        for (int i=0;i<currentPosition;i++) {
-            strBuff.append(data[i]);
-            if(i<currentPosition-1){
-                strBuff.append(",");
+            // Element to be deleted is found
+            if(arrayCollection[i] == value){
+                // Element found
+                isElementFound = true;
+                // Shift positions to left
+                for (int j=tempPosition; (tempPosition+1)<getArraySize(); tempPosition++){
+                    arrayCollection[tempPosition] = arrayCollection[tempPosition+1];
+                }
+                // Decrement positions since one element is deleted
+                currentPosition--;
+                // Break out of the loop
+                break;
             }
-        }
-        strBuff.append("]");
 
-        return strBuff.toString();
+            tempPosition++;
+        }
+
+        if(!isElementFound){
+            throw new IllegalStateException("Element not found: So Deletion cannot be done");
+        }
     }
+
+
+    /**
+     * OPERATION: Deleting the element from an array based on index
+     */
+    public void deleteByIndex(int indexToDelete) {
+
+        if(indexToDelete>=currentPosition || indexToDelete<0){
+            throw new IllegalStateException("Invalid position te delete");
+        }
+
+        int temp = indexToDelete;
+        for (int i=temp ; (temp+1)<getArraySize(); temp++){
+            arrayCollection[temp] = arrayCollection[temp+1];
+        }
+
+        currentPosition--;
+    }
+
+
+    /**
+     * Helpers: Resizing(increasing) the array
+     */
+    private void resizingOperation() {
+        currentPosition = 0; // Set the current position to 0 since we resize the array
+        int[] oldCollection = arrayCollection; // Store the old reference
+        int newSize = arrayCollection.length + getArraySize(); // Determine the new size
+        arrayCollection = new int[newSize]; // Create a new array with new size
+        for(int i=0 ; i<oldCollection.length ; i++){
+            arrayCollection[i] = oldCollection[i]; // Copy the element
+            currentPosition++; // Update the position
+        }
+    }
+
+
 }
