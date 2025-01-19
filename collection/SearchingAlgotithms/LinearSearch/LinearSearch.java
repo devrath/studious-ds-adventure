@@ -1,33 +1,34 @@
-package searchingAlgorithms;
-
-import java.util.Arrays;
-
 public class LinearSearch {
 
-    int[] input = new int[]{8, 2, 4, 1, 3};
-    int searchValue = 10;
+    int[] arrayToSearch;
+    int numberToSearch;
 
-    public LinearSearch() {
-        performSearch();
+    public LinearSearch(int[] arrayToSearch, int numToSearch) {
+        this.arrayToSearch = arrayToSearch;
+        this.numberToSearch = numToSearch;
     }
 
-    private void performSearch() {
-
+    public void search() {
         int position = -1;
-
-        for (int i = 0; i < input.length; i++) {
-            if (input[i] == searchValue) {
-                position = i;
-                break;
+        if(arrayToSearch==null){
+            System.out.println("Cannot search the element since array is null");
+        }else if(arrayToSearch.length==0){
+            System.out.println("Cannot search the element since array is empty");
+        }else{
+            // Try to find the element in the array
+            for(int i=0; i<arrayToSearch.length; i++){
+                if(arrayToSearch[i]==numberToSearch){
+                    position = i;
+                    break;
+                }
             }
         }
 
-        if (position == -1) {
-            System.out.println("Element not found during searching");
-        } else {
-            System.out.println("Element found at position:->" + position);
+        if(position==-1){
+            System.out.println("Item not found");
+        }else{
+            System.out.println("Item found at position " + position);
         }
-
     }
 
 
