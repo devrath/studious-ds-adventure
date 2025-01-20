@@ -1,94 +1,60 @@
-package searchingAlgorithms;
-
 public class BinarySearch {
 
-    int[] input = new int[]{1,2,3,4,8};
-    int searchValue = 8;
+    int[] arrayToSearch;
+    int numberToSearch;
 
-    public BinarySearch() {
-        recursiveSearch();
+    public BinarySearch(int[] arrayToSearch, int numToSearch) {
+        this.arrayToSearch = arrayToSearch;
+        this.numberToSearch = numToSearch;
     }
 
-    /**
-     * USING-ITERATION
-     */
-    private void iterativeSearch() {
+    public void search() {
 
-        int position = -1;
-
-        // Left pointer position is 0
-        int left = 0;
-        // Right pointer position is (arraySize-1) because array starts from position-0
-        int right = input.length-1;
-
-
-        while(left<=right){
-            // Here tileset there is a partition to be searched
-
-            int mid = (left+right)/2;
-
-            // Element is found in the middle
-            if(input[mid]==searchValue){
-                position = mid;
-                break;
-            }
-
-            if(searchValue<input[mid]){
-                // search to left part of the array
-                right = mid-1;
-            }else{
-                // search to right part of the array
-                left = mid+1;
-            }
-        }
-
-        if (position == -1) {
-            System.out.println("Element not found during searching");
-        } else {
-            System.out.println("Element found at position:->" + position);
-        }
-
-    }
-
-    /**
-     * USING-RECURSION
-     */
-    private void recursiveSearch() {
-        int left = 0;
-        int right = input.length-1;
-        int position = -1;
-        // Apply recursion
-        int result = search(left,right,position);
-
-        if(result==-1){
-            System.out.println("Item not found");
+        if(arrayToSearch==null){
+            System.out.println("Input array is invalid to perform the search operation");
         }else{
-            System.out.println("Item found at position:-> "+result);
+            if(getSize(arrayToSearch)==0){
+                System.out.println("No elements present to perform search operation");
+            }
+
+            int start = 0;
+            int end = arrayToSearch.length-1;
+            int position = -1;
+
+            int result = findMiddleIndex(start,end,position);
+
+            if(result==-1){
+                System.out.println("No elements present to perform search operation");
+            }else{
+                System.out.println("Element "+arrayToSearch[result]+" found at position "+result);
+            }
         }
     }
 
-    private int search(int left, int right, int position) {
+    private int findMiddleIndex(int start, int end, int position) {
 
-        // Breaking condition
-        if(left>right){
+        if(start>end){
             return position;
         }
 
-        int mid = (left + right)/2;
+        int mid = (start+end)/2;
 
-        if(searchValue == input[mid]){
-            // Item is found at the middle of the partition
+        if(arrayToSearch[mid]==numberToSearch){
+            // Element found at the mid-position
             return mid;
         }
 
-        if(searchValue <= input[mid]){
-            // Search to left partition
-            return search(left,mid-1,position);
+        // Now check if the element to be searched is at left /right part of the array
+        if(numberToSearch<=arrayToSearch[mid]){
+            // Element could be at left part of the array
+            return findMiddleIndex(start, mid-1, position);
         }else{
-            // Search to right partition
-            return search(mid+1,right,position);
+            // Element could be at right part of the array
+            return findMiddleIndex(mid+1, end, position);
         }
     }
 
-
+    private int getSize(int[] data) {
+        return data.length;
+    }
 }
