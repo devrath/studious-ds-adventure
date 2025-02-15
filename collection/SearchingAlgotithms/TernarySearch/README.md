@@ -1,16 +1,18 @@
-<h1 align="center">Linear Search</h1>
+<h1 align="center">Ternary Search</h1>
 
 ## `Complexities`
 
 | 🆂🅿🅰🅲🅴 | 🆃🅸🅼🅴 |
 | -------- | ------- |
-|  O(1)    |   O(n)  |
+|  O(1)    |   O(log3n)  |
 
 
 ## `Approach`
-* We have an array, We iterate the array by checking if the element is present
-* If the element is found we return the index of the element
-* If the element is not found then we return `-1`
+* Instead of dividing the array into `2-parts`, We divide the array into `3-parts`
+* How to calculate on which position we need to set the points to divide the array
+  * We first calculate the ---------> ```partitionSize = (right - left) / 3```
+  * Calculate first mid-point ------> ```mid1 = left + partitionSize```
+  * Calculate second mid-point ---> ```mid2 = right - partitionSize```
 
-## `Disadvantages`
-* It is not a good approach for large data sets. Since the time complexity increases as the size of the data set increases
+## `Is Ternary Search faster than Binary Search`
+* No
